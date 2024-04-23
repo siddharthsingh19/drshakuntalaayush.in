@@ -27,7 +27,7 @@
   padding-top: 6px;
   list-style-type: none;
   margin: 0;
-  display: block;
+  display: none;
 }
 .dropdown-navigation:hover .dropdown-menu {
   display: block;

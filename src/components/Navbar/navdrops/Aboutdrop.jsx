@@ -8,7 +8,6 @@ import affil from "/Affiliation_Letter_2021.jpg";
 import permission from "/Permission2024.jpg";
 const Aboutdrop = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isOpenIn, setIsOpenIn] = useState(false);
 
   const handleMouseEnter = () => {
     setIsOpen(true);
@@ -76,10 +75,47 @@ const Aboutdrop = () => {
               </div>
             )}
           </div>
-          <div className="aboutdrop--links">
+          <div
+            onMouseEnter={handleMouseEnter}
+            className="aboutdrop--links dropdown-navigationIn"
+          >
             <Link to="/otheractivites" className="flex aic jcsb">
               Other Activites <FaCaretRight />
             </Link>
+            {isOpen && (
+              <div className="dropdown-menuIn" onMouseLeave={handleMouseLeave}>
+                <div className="aboutdrop--links">
+                  <a target="_blank" href={statenoc}>
+                    Continous Medical Education
+                  </a>
+                </div>
+                <div className="aboutdrop--links">
+                  <a target="_blank" href={affil}>
+                    conference Seminar
+                  </a>
+                </div>
+                <div className="aboutdrop--links">
+                  <a target="_blank" href={permission}>
+                    Research Publication
+                  </a>
+                </div>
+                <div className="aboutdrop--links">
+                  <a target="_blank" href={statenoc}>
+                    Award and Achievement
+                  </a>
+                </div>
+                <div className="aboutdrop--links">
+                  <a target="_blank" href={affil}>
+                    Medical camp
+                  </a>
+                </div>
+                <div className="aboutdrop--links">
+                  <a target="_blank" href={permission}>
+                    Games and other Extra-Curricular Activities
+                  </a>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       )}
