@@ -1,0 +1,96 @@
+nav {
+}
+
+.nav--container {
+}
+
+.nav--wrapper {
+  /* background-color: #fff; */
+  /* height: 60px; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.nav--top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1d784d;
+  height: 25px;
+}
+
+.nav--cta {
+  display: flex;
+  padding: 0 10px;
+  gap: 10px;
+}
+
+.nav--ctaflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.nav--ctas {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: white;
+}
+
+.nav--ctas:hover {
+  color: tomato;
+}
+
+.nav--mail {
+  text-decoration: none;
+}
+
+.nav--social {
+  display: flex;
+  gap: 10px;
+  padding: 0 10px;
+  font-size: 0.8rem;
+}
+
+.nav--social-link {
+}
+
+.nav--social-link:hover {
+  color: tomato;
+}
+
+.nav--center {
+}
+
+.logo {
+  width: 100vw;
+}
+
+.nav--bottom {
+  margin: -2px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: slategray;
+}
+
+.nav--left {
+  flex: 1;
+}
+
+.nav--menub {
+}
+
+.nav--menuul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav--menu {
+  list-style: none;
+}
