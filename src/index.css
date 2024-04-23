@@ -8,6 +8,26 @@
 }
 
 body {
-  background-color: black;
+  background-color: slategray;
   color: aliceblue;
+}
+
+.flex {
+  display: flex;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.gap {
+  gap: 30px;
 }
