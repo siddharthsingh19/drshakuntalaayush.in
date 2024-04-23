@@ -1,6 +1,6 @@
 .aboutdrop--main {
   background-color: #fff;
-  color: #1d784d;
+  color: #65bc51;
 }
 
 .aboutdrop--links {
@@ -11,9 +11,8 @@
 
 .aboutdrop--links > a {
   text-decoration: none;
-  color: #1d784d;
+  color: #65bc51;
   font-weight: 600;
-  /* font-size: 0.8rem; */
 }
 
 .dropdown-navigation {

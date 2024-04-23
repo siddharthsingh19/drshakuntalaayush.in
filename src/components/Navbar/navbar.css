@@ -103,13 +103,23 @@ nav {
 .nav--menu {
   list-style: none;
   font-weight: 600;
+  font-size: 0.8rem;
+}
+.nav--menu > a {
+  text-decoration: none;
+  color: #1d784d;
 }
 
 .nav--links {
-  color: #65bc51;
+  color: #1d784d;
   text-decoration: none;
 }
 
 .nav--link-hr {
   border: 1px solid #65bc51;
+  display: none;
+}
+
+.nav--menu:hover .nav--link-hr {
+  display: block;
 }

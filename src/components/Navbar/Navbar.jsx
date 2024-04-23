@@ -6,6 +6,12 @@ import "./navbar.css";
 import { Link } from "react-router-dom";
 import Home from "../../pages/Home/Home";
 import Aboutdrop from "./navdrops/Aboutdrop";
+import { FaCaretDown } from "react-icons/fa";
+import Facultydrop from "./navdrops/Facultydrop";
+import Collegedrop from "./navdrops/Collegedrop";
+import Hospitaldrop from "./navdrops/Hospitaldrop";
+import Studentdrop from "./navdrops/studentdrop";
+import Newsdrop from "./navdrops/newsdrop";
 
 const Navbar = () => {
   return (
@@ -82,24 +88,31 @@ const Navbar = () => {
                     About
                   </Link> */}
                   <Aboutdrop />
+                  <FaCaretDown color="#65bc51" />
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
-                  <Link className="nav--links" to="/faculty">
+                  {/* <Link className="nav--links" to="/faculty">
                     Faculty
-                  </Link>
+                  </Link> */}
+                  <Facultydrop />
+                  <FaCaretDown color="#65bc51" />
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
-                  <Link className="nav--links" to="/collegenhostel">
+                  {/* <Link className="nav--links" to="/collegenhostel">
                     College & Hostel
-                  </Link>
+                  </Link> */}
+                  <Collegedrop />
+                  <FaCaretDown color="#65bc51" />
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
-                  <Link className="nav--links" to="/hospital">
+                  {/* <Link className="nav--links" to="/hospital">
                     Hospital
-                  </Link>
+                  </Link> */}
+                  <Hospitaldrop />
+                  <FaCaretDown color="#65bc51" />
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
@@ -109,15 +122,19 @@ const Navbar = () => {
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
-                  <Link className="nav--links" to="/studentscorner">
+                  {/* <Link className="nav--links" to="/studentscorner">
                     Student's Corner
-                  </Link>
+                  </Link> */}
+                  <Studentdrop />
+                  <FaCaretDown color="#65bc51" />
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
-                  <Link to="/news" className="nav--links">
+                  {/* <Link to="/news" className="nav--links">
                     News & Notice
-                  </Link>
+                  </Link> */}
+                  <Newsdrop />
+                  <FaCaretDown color="#65bc51" />
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
@@ -133,9 +150,9 @@ const Navbar = () => {
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
-                  <Link className="nav--links" to="/login">
+                  <a href="https://softitlab.com/DOCTORDESK/login.php">
                     OPD Login
-                  </Link>
+                  </a>
                   <hr className="nav--link-hr" />
                 </li>
               </ul>
