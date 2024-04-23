@@ -1,0 +1,16 @@
+.aboutdrop--main {
+  background-color: #fff;
+  color: #65bc51;
+}
+
+.aboutdrop--links {
+  background-color: #fff;
+  width: 15rem;
+  padding: 10px;
+}
+
+.aboutdrop--links > a {
+  text-decoration: none;
+  color: #65bc51;
+  font-weight: 600;
+}
