@@ -144,3 +144,34 @@ nav {
 .nav--menu:hover .nav--link-hr {
   display: block;
 }
+
+.ham {
+  display: none;
+}
+
+/* responsiveness injected */
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (max-width: 600px) {
+  .nav--bottom {
+    display: none;
+  }
+
+  .ham {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+
+    height: 60px;
+  }
+
+  .hamenu {
+    font-size: 1.5rem;
+    top: 20px;
+    right: 20px;
+    display: block;
+  }
+}

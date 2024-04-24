@@ -1,5 +1,5 @@
 .hs1 {
-  margin-top: 100vh;
+  margin-top: 140vh;
   height: 40vh;
   /* background-color: red; */
 }
@@ -20,4 +20,20 @@
 }
 .hs1--sec1-right {
   flex: 4;
+}
+@media only screen and (max-width: 600px) {
+  .hs1 {
+    margin-top: 30px;
+  }
+  .hs1--sec1 {
+    flex-direction: column;
+    width: 100vw;
+    text-align: center;
+    gap: 20px;
+  }
+  .hs1--sec1-left {
+    font-size: 0.8rem;
+  }
+  .hs1--sec1-right {
+  }
 }

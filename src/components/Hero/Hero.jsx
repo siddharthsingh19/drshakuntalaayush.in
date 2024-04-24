@@ -22,13 +22,13 @@ const Hero = () => {
               src={image}
               alt={`Slide ${index + 1}`}
             />
+            <div className="hero-h1">
+              <span>Embark on a Journey of Healing with</span>
+              <h1>Ayurveda</h1>
+            </div>
           </div>
         ))}
       </Carousel>
-      <div className="hero-h1">
-        <span>Embark on a Journey of Healing with</span>
-        <h1>Ayurveda</h1>
-      </div>
     </div>
   );
 };

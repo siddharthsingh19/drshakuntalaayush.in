@@ -12,6 +12,7 @@ import Collegedrop from "./navdrops/Collegedrop";
 import Hospitaldrop from "./navdrops/Hospitaldrop";
 import Studentdrop from "./navdrops/studentdrop";
 import Newsdrop from "./navdrops/newsdrop";
+import { MdMenu } from "react-icons/md";
 
 const Navbar = () => {
   return (
@@ -159,7 +160,12 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+        <div className="ham">
+          <div className="res">LOGO</div>
+          <MdMenu color="black" className="hamenu" />
+        </div>
       </div>
+      <div></div>
     </nav>
   );
 };
