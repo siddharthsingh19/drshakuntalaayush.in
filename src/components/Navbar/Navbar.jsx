@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoMdCall, IoMdMail } from "react-icons/io";
 import { FaTwitter, FaFacebook, FaUser } from "react-icons/fa";
 import { Tooltip } from "react-tooltip";
@@ -15,6 +15,12 @@ import Newsdrop from "./navdrops/newsdrop";
 import { MdMenu } from "react-icons/md";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const tooglenav = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <nav>
       <div className="nav--container">
@@ -77,7 +83,8 @@ const Navbar = () => {
           </div> */}
           <div className="nav--bottom">
             <div className="nav--menub">
-              <ul className="nav--menuul">
+              <div className="nav-main-logo">LOGO</div>
+              <ul className={`nav--menuul ${isOpen ? "isActive" : ""}`}>
                 <li className="nav--menu">
                   <Link className="nav--links" to="/">
                     Home
@@ -162,7 +169,9 @@ const Navbar = () => {
         </div>
         <div className="ham">
           <div className="res">LOGO</div>
-          <MdMenu color="black" className="hamenu" />
+          <div onClick={tooglenav}>
+            <MdMenu color="black" className="hamenu" />
+          </div>
         </div>
       </div>
       <div></div>

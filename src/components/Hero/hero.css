@@ -6,13 +6,13 @@
 .hero-slide {
   height: auto;
   width: 100vw;
-  /* height: 100vh; */
+  height: 100vh;
   /* position: relative; */
 }
 
 .hero-h1 {
   position: absolute;
-  top: 50vh;
+  top: 40vh;
   margin-left: 8rem;
   background-color: #eef0f2;
   opacity: 0.8;
