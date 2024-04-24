@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav>
       <div className="nav--container">
         <div className="nav--wrapper">
-          <div className="nav--top">
+          {/* <div className="nav--top">
             <div className="nav--top-wrapper">
               <div className="nav--cta">
                 <p className="nav--phone nav--ctaflex">
@@ -64,8 +64,8 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="nav--center">
+          </div> */}
+          {/* <div className="nav--center">
             <Link to="/">
               <img
                 className="logo"
@@ -73,7 +73,7 @@ const Navbar = () => {
                 alt="Dr. Shakuntala Ayurvedic Medical College Jaunpur"
               />
             </Link>
-          </div>
+          </div> */}
           <div className="nav--bottom">
             <div className="nav--menub">
               <ul className="nav--menuul">
@@ -88,7 +88,7 @@ const Navbar = () => {
                     About
                   </Link> */}
                   <Aboutdrop />
-                  <FaCaretDown color="#65bc51" />
+                  <FaCaretDown color="#fff" />
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
@@ -96,7 +96,7 @@ const Navbar = () => {
                     Faculty
                   </Link> */}
                   <Facultydrop />
-                  <FaCaretDown color="#65bc51" />
+                  <FaCaretDown color="#fff" />
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
@@ -104,7 +104,7 @@ const Navbar = () => {
                     College & Hostel
                   </Link> */}
                   <Collegedrop />
-                  <FaCaretDown color="#65bc51" />
+                  <FaCaretDown color="#fff" />
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
@@ -112,7 +112,7 @@ const Navbar = () => {
                     Hospital
                   </Link> */}
                   <Hospitaldrop />
-                  <FaCaretDown color="#65bc51" />
+                  <FaCaretDown color="#fff" />
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
@@ -126,7 +126,7 @@ const Navbar = () => {
                     Student's Corner
                   </Link> */}
                   <Studentdrop />
-                  <FaCaretDown color="#65bc51" />
+                  <FaCaretDown color="#fff" />
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
@@ -134,7 +134,7 @@ const Navbar = () => {
                     News & Notice
                   </Link> */}
                   <Newsdrop />
-                  <FaCaretDown color="#65bc51" />
+                  <FaCaretDown color="#fff" />
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">

@@ -1,6 +1,7 @@
 .aboutdrop--main {
-  background-color: #fff;
+  /* background-color: #fff; */
   color: #1d784d;
+  color: #fff;
 }
 
 .aboutdrop--links {
@@ -12,6 +13,7 @@
 .aboutdrop--links > a {
   text-decoration: none;
   color: #1d784d;
+  /* color: #fff; */
   font-weight: 600;
   /* font-size: 0.8rem; */
 }

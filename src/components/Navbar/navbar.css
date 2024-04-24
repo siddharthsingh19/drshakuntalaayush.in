@@ -2,10 +2,20 @@ nav {
 }
 
 .nav--container {
+  width: 100vw;
+  top: 0;
+  position: relative;
+  z-index: 99;
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.32);
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
 }
 
 .nav--wrapper {
-  background-color: #fff;
+  /* background-color: #fff; */
   /* height: 60px; */
   display: flex;
   flex-direction: column;
@@ -78,11 +88,20 @@ nav {
 
 .nav--bottom {
   margin: -2px 0;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
-  /* position: fixed; */
+  /* background-color: white; */
+  position: sticky;
+  top: 0;
+}
+
+.sticky-div {
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .nav--left {
@@ -90,6 +109,7 @@ nav {
 }
 
 .nav--menub {
+  /* background-color: #fff; */
 }
 
 .nav--menuul {
@@ -103,11 +123,12 @@ nav {
 .nav--menu {
   list-style: none;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .nav--menu > a {
   text-decoration: none;
   color: #1d784d;
+  color: white;
 }
 
 .nav--links {
