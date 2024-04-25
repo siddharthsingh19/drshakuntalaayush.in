@@ -31,3 +31,15 @@ body {
 .gap {
   gap: 30px;
 }
+
+.cp {
+  cursor: pointer;
+}
+
+/* dark 1d784d */
+/* light 65bc51 */
+
+:root {
+  --dark: #1d784d;
+  --light: #65bc51;
+}

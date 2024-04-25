@@ -21,13 +21,19 @@ const Facultydrop = () => {
       <div
         className="dropdown-navigation aboutdrop--main"
         onMouseEnter={handleMouseEnter}
+        onClick={handleMouseEnter}
       >
         Faculty
       </div>
       {isOpen && (
-        <div className="dropdown-menu" onMouseLeave={handleMouseLeave}>
+        <div
+          className="dropdown-menu"
+          onMouseLeave={handleMouseLeave}
+          onClick={handleMouseLeave}
+        >
           <div
             onMouseEnter={handleMouseEnter}
+            onClick={handleMouseEnter}
             className="aboutdrop--links dropdown-navigationIn"
           >
             <Link to="/introduction" className="flex aic jcsb">
@@ -35,7 +41,11 @@ const Facultydrop = () => {
               <FaCaretRight />
             </Link>
             {isOpen && (
-              <div className="dropdown-menuIn" onMouseLeave={handleMouseLeave}>
+              <div
+                className="dropdown-menuIn"
+                onMouseLeave={handleMouseLeave}
+                onClick={handleMouseLeave}
+              >
                 <div className="aboutdrop--links">
                   <a target="_blank" href="">
                     List of teaching Staff Department-Wise
@@ -51,6 +61,7 @@ const Facultydrop = () => {
           </div>
           <div
             onMouseEnter={handleMouseEnter}
+            onClick={handleMouseEnter}
             className="aboutdrop--links dropdown-navigationIn"
           >
             <Link to="/introduction" className="flex aic jcsb">
@@ -58,7 +69,11 @@ const Facultydrop = () => {
               <FaCaretRight />
             </Link>
             {isOpen && (
-              <div className="dropdown-menuIn" onMouseLeave={handleMouseLeave}>
+              <div
+                className="dropdown-menuIn"
+                onMouseLeave={handleMouseLeave}
+                onClick={handleMouseLeave}
+              >
                 <div className="aboutdrop--links">
                   <a target="_blank" href="">
                     List of Non-Teaching Staff Department-Wise
@@ -74,6 +89,7 @@ const Facultydrop = () => {
           </div>
           <div
             onMouseEnter={handleMouseEnter}
+            onClick={handleMouseEnter}
             className="aboutdrop--links dropdown-navigationIn"
           >
             <Link to="/introduction" className="flex aic jcsb">
@@ -81,7 +97,11 @@ const Facultydrop = () => {
               <FaCaretRight />
             </Link>
             {isOpen && (
-              <div className="dropdown-menuIn" onMouseLeave={handleMouseLeave}>
+              <div
+                className="dropdown-menuIn"
+                onMouseLeave={handleMouseLeave}
+                onClick={handleMouseLeave}
+              >
                 <div className="aboutdrop--links">
                   <a target="_blank" href="">
                     List of Hospital Staff Department-Wise

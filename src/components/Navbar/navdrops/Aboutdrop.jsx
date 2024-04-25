@@ -17,16 +17,25 @@ const Aboutdrop = () => {
     setIsOpen(false);
   };
 
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="dropdown-navigation">
       <div
         className="dropdown-navigation aboutdrop--main"
         onMouseEnter={handleMouseEnter}
+        onClick={handleClick}
       >
         About Us
       </div>
       {isOpen && (
-        <div className="dropdown-menu" onMouseLeave={handleMouseLeave}>
+        <div
+          className="dropdown-menu"
+          onClick={handleMouseLeave}
+          onMouseLeave={handleMouseLeave}
+        >
           <div className="aboutdrop--links">
             <a target="_blank" href={collegecouncil}>
               College Council

@@ -52,3 +52,21 @@
 .dropdown-navigationIn:hover .dropdown-menuIn {
   display: block;
 }
+
+@media only screen and (max-width: 600px) {
+  .aboutdrop--main {
+    display: flex;
+  }
+
+  .dropdown-menu {
+    position: relative;
+    display: table;
+    width: min-content;
+  }
+  .aboutdrop--links {
+    background-color: #1d784d;
+  }
+  .aboutdrop--links a {
+    color: white;
+  }
+}

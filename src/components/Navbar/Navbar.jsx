@@ -3,7 +3,7 @@ import { IoMdCall, IoMdMail } from "react-icons/io";
 import { FaTwitter, FaFacebook, FaUser } from "react-icons/fa";
 import { Tooltip } from "react-tooltip";
 import "./navbar.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Home from "../../pages/Home/Home";
 import Aboutdrop from "./navdrops/Aboutdrop";
 import { FaCaretDown } from "react-icons/fa";
@@ -16,8 +16,28 @@ import { MdMenu } from "react-icons/md";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [dropdown, setDropdown] = useState([
+    { id: 1, isOpenn: false },
+    { id: 2, isOpenn: false },
+    { id: 3, isOpenn: false },
+    { id: 4, isOpenn: false },
+  ]);
+
+  const toggleDrop = (id) => {
+    const updatedDropdown = dropdown.map((dropdown) => {
+      if (dropdown.id === id) {
+        return {
+          ...dropdown,
+          isOpenn: false,
+        };
+      }
+    });
+    setDropdown(updatedDropdown);
+  };
 
   const tooglenav = () => {
+    console.log("clicked");
     setIsOpen(!isOpen);
   };
 
@@ -81,10 +101,10 @@ const Navbar = () => {
               />
             </Link>
           </div> */}
-          <div className="nav--bottom">
+          <div className={`nav-main-logo`}>LOGO</div>
+          <div className={`nav--bottom ${isOpen ? "open" : ""}`}>
             <div className="nav--menub">
-              <div className="nav-main-logo">LOGO</div>
-              <ul className={`nav--menuul ${isOpen ? "isActive" : ""}`}>
+              <ul className={`nav--menuul ${isOpen ? "open" : ""}`}>
                 <li className="nav--menu">
                   <Link className="nav--links" to="/">
                     Home
@@ -124,9 +144,9 @@ const Navbar = () => {
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
-                  <Link className="nav--links" to="/courses">
+                  <NavLink className="nav--links" to="/courses">
                     Courses
-                  </Link>
+                  </NavLink>
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
@@ -146,15 +166,15 @@ const Navbar = () => {
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
-                  <Link className="nav--links" to="/gallery">
+                  <NavLink className="nav--links" to="/gallery">
                     Gallery
-                  </Link>
+                  </NavLink>
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
-                  <Link className="nav--links" to="/contact">
+                  <NavLink className="nav--links" to="/contact">
                     Contact Us
-                  </Link>
+                  </NavLink>
                   <hr className="nav--link-hr" />
                 </li>
                 <li className="nav--menu">
@@ -166,11 +186,11 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-        </div>
-        <div className="ham">
-          <div className="res">LOGO</div>
-          <div onClick={tooglenav}>
-            <MdMenu color="black" className="hamenu" />
+          <div className="ham">
+            <div className="res">LOGO</div>
+            <div onClick={tooglenav}>
+              <MdMenu color="black" className="hamenu" />
+            </div>
           </div>
         </div>
       </div>
