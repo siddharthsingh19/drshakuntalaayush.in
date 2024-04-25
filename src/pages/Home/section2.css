@@ -24,3 +24,33 @@
   margin-top: 40px;
   width: 90vw;
 }
+
+.hs2--img-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .hs2-courses {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hs1--sec2-cards {
+    width: 300px;
+    padding: 30px 20px;
+  }
+  .hs2-heading {
+    font-size: 1.5rem;
+  }
+  .hs1--sec2-cards:hover {
+    background-color: #1d784d;
+  }
+  .hs1--sec2-cards > h3 {
+    font-size: 0.9rem;
+  }
+  .hs1--sec2-cards > p {
+    font-size: 0.8rem;
+  }
+}

@@ -1,31 +1,32 @@
 import React from "react";
 import "./section2.css";
+import herbs from "/images/herbs.jpg";
 
 const Section2 = () => {
   const coursecards = [
     {
-      image: "",
+      img: herbs,
       heading: "Bachelor of Ayurvedic Medicine and Surgery (B.A.M.S.)",
       title:
-        "We offer holistic education in Ayurvedic medicine, emphasizing practical skills, ethics, and personalized mentorship for students' success.",
+        "Explore holistic Ayurvedic principles, anatomy, herbology, diagnostics, and therapeutics for a career as an Ayurvedic practitioner. Enroll for transformative learning!",
     },
     {
-      image: "",
+      img: herbs,
       heading: "Master of Surgery(M.S.) Ayurveda",
       title:
-        "Our Expert faculty bring extensive knowledge, skills, and real-world experience to enrich students' learning journey..",
+        "Master the intricate art of Ayurvedic surgery, blending ancient techniques with modern medical knowledge. Elevate your skills and career. Enroll now!",
     },
     {
-      image: "",
+      img: herbs,
       heading: "Ayurvedic Nursing",
       title:
-        "Our College boasts modern infrastructure, equipped with advanced facilities to support students' academic and practical learning needs. ",
+        "Enhance your caregiving skills with Ayurvedic nursing, integrating traditional healing wisdom with modern healthcare practices. Enroll for holistic nursing education. ",
     },
     {
-      image: "",
+      img: herbs,
       heading: "Ayurvedic Pharmacist",
       title:
-        "We provide comprehensive placement assistance, guiding students towards rewarding career opportunities in the field of Ayurvedic medicine.",
+        "Master the fusion of Ayurvedic wisdom and pharmaceutical science. Become an Ayurvedic Pharmacist adept at herbal formulations and holistic healthcare. Enroll today!",
     },
   ];
 
@@ -36,7 +37,9 @@ const Section2 = () => {
       <div className="hs2-courses">
         {coursecards.map((card) => (
           <div className="hs1--sec2-cards cp">
-            <div className="hs2--img">{card.image}</div>
+            <div className="hs2--img">
+              <img src={card.img} alt={card.heading} className="hs2--img-img" />
+            </div>
             <h3>{card.heading}</h3>
             <p>{card.title}</p>
           </div>
