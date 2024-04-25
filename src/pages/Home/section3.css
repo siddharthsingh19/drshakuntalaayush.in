@@ -59,13 +59,13 @@
   position: relative;
   box-shadow: 4px 4px 8px #bfbfbf;
   margin-right: -90px;
-  width: 500px;
+  width: 600px;
 }
 
 .news-body {
   position: absolute;
   width: 350px;
-  left: 60px;
+  left: 160px;
   top: 380px;
   background-color: var(--white);
   /* background-color: orange; */
