@@ -117,18 +117,18 @@
   .news-img {
     margin: 0;
     box-shadow: 0 -4px 8px #cbcdcf;
-    width: 70vw;
+    width: 60vw;
   }
   .news-body {
     position: relative;
     margin-top: 0;
     left: auto;
     top: auto;
-    width: 70vw;
+    width: 60vw;
     box-shadow: 0 4px 8px #cbcdcf;
   }
   .news-body > h5 {
-    margin-left: -150px;
+    margin-left: -100px;
   }
   .news-body > h2 {
     font-size: 0.9rem;
