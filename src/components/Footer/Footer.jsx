@@ -8,8 +8,10 @@ import { FaPhoneAlt } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="flogo">
-        {/* <img className="flogo" src={logo} alt="logo" /> */}
+      <div className="flogo-div">
+        <a href="/">
+        <img className="flogo" src={logo} alt="logo" />
+        </a>
       </div>
       <div className="footerlinks">
         <div className="f1">
