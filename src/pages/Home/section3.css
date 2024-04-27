@@ -117,13 +117,14 @@
   .news-img {
     margin: 0;
     box-shadow: 0 -4px 8px #cbcdcf;
+    width: 70vw;
   }
   .news-body {
     position: relative;
     margin-top: 0;
     left: auto;
     top: auto;
-    width: 300px;
+    width: 70vw;
     box-shadow: 0 4px 8px #cbcdcf;
   }
   .news-body > h5 {
