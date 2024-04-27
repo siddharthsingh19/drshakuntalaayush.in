@@ -1,12 +1,15 @@
 import React from "react";
 import "./footer.css";
 import logo from "/logo.jpg";
+import { IoMdMail } from "react-icons/io";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="flogo">
-        <img className="flogo" src={logo} alt="logo" />
+        {/* <img className="flogo" src={logo} alt="logo" /> */}
       </div>
       <div className="footerlinks">
         <div className="f1">
@@ -27,6 +30,14 @@ const Footer = () => {
             <li>Permission and Affiliation</li>
           </ul>
         </div>
+        <div className="f2">
+          <ul>
+            <li>Contact Us</li>
+            <li><IoMdMail/> drshakuntalaayush@mail.com</li>
+            <li><FaLocationDot /> 1214, Gaurabadshahpur, Nainsand, <br /> Jaunpur, Uttar Pradesh-222133</li>
+            <li><FaPhoneAlt/> 991 890 5644</li>
+          </ul>
+        </div>
         <div className="f3">
           <div className="Contact">
             <div className="map">
@@ -44,7 +55,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+      <div className="fbase">
+        <p>Copyright © 2024 Dr. Shakuntala Ayurvedic Medical College and Hospital. All rights reserved.</p>
+        <p>Created by <a href="https://ntechzy.com"> Ntechzy</a></p>
+        </div>
+      </div>
   );
 };
 

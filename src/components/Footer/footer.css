@@ -3,6 +3,8 @@
   width: 100vw;
   height: auto;
   padding: 50px;
+  padding-bottom: 70px;
+  position: relative;
 }
 
 .flogo {
@@ -19,10 +21,9 @@
 }
 
 .f1,
-.f2,
-.f3 {
-  /* width: 80vw; */
-  text-align: center;
+.f2{
+  width: 85vw;
+  text-align: left;
 }
 
 .f1 > ul,
@@ -37,6 +38,31 @@
   width: 500px;
   height: 300px;
   border-radius: 5px;
+  margin: 0 auto;
+}
+
+.fbase{
+  /* height: 20px; */
+  background-color: var(--light);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  flex-direction: column;
+}
+
+.fbase a{
+  margin-left: 8px;
+  text-decoration: none;
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {
@@ -49,4 +75,14 @@
     width: 300px;
     height: 300px;
   }
+
+  .fbase{
+    font-size: 0.7rem;
+    margin: 0 auto;
+  }
+  .fbase a{
+    margin-left: 2px;
+  }
+
 }
+
