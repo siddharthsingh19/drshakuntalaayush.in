@@ -17,6 +17,7 @@
 
 .hs1--sec1-left {
   flex: 2;
+  color: var(--dark);
 }
 .hs1--sec1-right {
   flex: 4;
@@ -39,7 +40,7 @@
   flex-direction: column;
   gap: 10px;
   border-radius: 10px;
-  box-shadow: 4px 4px 8px #8a8a8a;
+  /* box-shadow: 4px 4px 8px #8a8a8a; */
   box-shadow: 0 4px 8px #cbcdcf;
   padding: 20px;
   width: 400px;
@@ -52,15 +53,18 @@
 }
 
 .card-icon {
+  color: var(--dark);
 }
 .hs1--sec2-cards:hover {
   background-color: #1d784d;
   transition-duration: 0.3s;
-}
-
-.hs1--sec2-cards:hover {
   color: white;
 }
+.hs1--sec2-cards:hover .card-icon {
+color: white;
+
+}
+
 
 @media only screen and (max-width: 600px) {
   .hs1 {
@@ -87,7 +91,7 @@
   .hs1--sec2-cards {
     width: 300px;
   }
-  .hs1--sec2-cards:hover {
+  /* .hs1--sec2-cards:hover {
     background-color: #1d784d;
-  }
+  } */
 }

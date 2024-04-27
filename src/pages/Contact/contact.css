@@ -110,6 +110,16 @@ outline: 1px solid var(--light);
     font-size: 1rem;
 }
 
+.btn-success{
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: var(--light);
+}
+
 .contact-us > h5{
     font-size: 1rem;
     font-weight: 700;
@@ -122,6 +132,13 @@ outline: 1px solid var(--light);
     font-size: 2.5rem;
 }
 
+.message-sent{
+    width: 400px;
+    height: 100px;
+    background-color: orange;
+    color: #cbcdcf;
+    display: block;
+}
 
 @media screen and (max-width: 1024px) {
     .contact__container{

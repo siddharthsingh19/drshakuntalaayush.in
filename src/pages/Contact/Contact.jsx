@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { LiaTelegram } from "react-icons/lia";
@@ -8,6 +8,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [messageSent, setMessageSent] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -28,7 +29,10 @@ const Contact = () => {
           console.log(error.text);
         }
       );
-
+    setMessageSent(true);
+    setTimeout(() => {
+      setMessageSent(false);
+    }, 3000); 
     e.target.reset();
   };
   return (
@@ -89,8 +93,8 @@ const Contact = () => {
             placeholder="Your Mesaage Here"
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary">
-            Send Message
+          <button type="submit" className={`btn ${messageSent ? "btn-success" : "btn-primary"}`}>
+            {messageSent ? "Message Sent!" : "Send Message"}
           </button>
         </form>
       </div>
