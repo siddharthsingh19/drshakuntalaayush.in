@@ -61,10 +61,8 @@
   color: white;
 }
 .hs1--sec2-cards:hover .card-icon {
-color: white;
-
+  color: white;
 }
-
 
 @media only screen and (max-width: 600px) {
   .hs1 {

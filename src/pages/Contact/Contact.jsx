@@ -32,7 +32,7 @@ const Contact = () => {
     setMessageSent(true);
     setTimeout(() => {
       setMessageSent(false);
-    }, 3000); 
+    }, 3000);
     e.target.reset();
   };
   return (
@@ -93,7 +93,10 @@ const Contact = () => {
             placeholder="Your Mesaage Here"
             required
           ></textarea>
-          <button type="submit" className={`btn ${messageSent ? "btn-success" : "btn-primary"}`}>
+          <button
+            type="submit"
+            className={`btn ${messageSent ? "btn-success" : "btn-primary"}`}
+          >
             {messageSent ? "Message Sent!" : "Send Message"}
           </button>
         </form>

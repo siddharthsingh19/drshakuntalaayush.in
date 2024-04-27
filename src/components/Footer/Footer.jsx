@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footer">
       <div className="flogo-div">
         <a href="/">
-        <img className="flogo" src={logo} alt="logo" />
+          <img className="flogo" src={logo} alt="logo" />
         </a>
       </div>
       <div className="footerlinks">
@@ -35,9 +35,16 @@ const Footer = () => {
         <div className="f2">
           <ul>
             <li>Contact Us</li>
-            <li><IoMdMail/> drshakuntalaayush@mail.com</li>
-            <li><FaLocationDot /> 1214, Gaurabadshahpur, Nainsand, <br /> Jaunpur, Uttar Pradesh-222133</li>
-            <li><FaPhoneAlt/> 991 890 5644</li>
+            <li>
+              <IoMdMail /> drshakuntalaayush@mail.com
+            </li>
+            <li>
+              <FaLocationDot /> 1214, Gaurabadshahpur, Nainsand, <br /> Jaunpur,
+              Uttar Pradesh-222133
+            </li>
+            <li>
+              <FaPhoneAlt /> 991 890 5644
+            </li>
           </ul>
         </div>
         <div className="f3">
@@ -58,10 +65,15 @@ const Footer = () => {
         </div>
       </div>
       <div className="fbase">
-        <p>Copyright © 2024 Dr. Shakuntala Ayurvedic Medical College and Hospital. All rights reserved.</p>
-        <p>Created by <a href="https://ntechzy.com"> Ntechzy</a></p>
-        </div>
+        <p>
+          Copyright © 2024 Dr. Shakuntala Ayurvedic Medical College and
+          Hospital. All rights reserved.
+        </p>
+        <p>
+          Created by <a href="https://ntechzy.com"> Ntechzy</a>
+        </p>
       </div>
+    </div>
   );
 };
 
