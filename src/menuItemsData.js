@@ -13,26 +13,7 @@ export const menuItemsData = [
       },
       {
         title: "Mission & Vision",
-        url: "Mission-Vision",
-        // submenu: [
-        //   {
-        //     title: "Frontend",
-        //     url: "frontend",
-        //   },
-        //   {
-        //     title: "Backend",
-        //     submenu: [
-        //       {
-        //         title: "NodeJS",
-        //         url: "node",
-        //       },
-        //       {
-        //         title: "PHP",
-        //         url: "php",
-        //       },
-        //     ],
-        //   },
-        // ],
+        url: "mission-vision",
       },
       {
         title: "Chairman's Message",
@@ -48,7 +29,7 @@ export const menuItemsData = [
       },
       {
         title: "Awards & Achievements",
-        url: "Awards",
+        url: "awards",
       },
     ],
   },
@@ -58,7 +39,7 @@ export const menuItemsData = [
     submenu: [
       {
         title: "Courses & Fees",
-        url: "courses-and-fees",
+        url: "courses-fees",
       },
 
       {
@@ -75,22 +56,23 @@ export const menuItemsData = [
       },
       {
         title: "Result",
-        url: "result",
+        url: "/result",
         submenu: [
           {
             title: "BAMS (UG) Result",
-            url: "bams-result",
+            url: "bams-ug-result",
           },
           {
             title: "PG Medical AU Result",
+            url:"pg-medical-au-result",
             submenu: [
               {
                 title: "MD First Year",
-                url: "md1styear",
+                url: "md-first-year",
               },
               {
                 title: "MD Final Year",
-                url: "mdFinalYear",
+                url: "md-final-year",
               },
             ],
           },
@@ -100,11 +82,11 @@ export const menuItemsData = [
   },
   {
     title: "NCISM Mandate",
-    url: "/ncism",
+    url: "/ncism-mandate",
     submenu: [
       {
         title: "Principal and Medical Superintendent",
-        url: "principal-and-medical-superintendent",
+        url: "principal-medical-superintendent",
       },
 
       {
@@ -124,12 +106,12 @@ export const menuItemsData = [
         url: "student-details",
       },
       {
-        title: "Research Publication",
-        url: "research-publication",
+        title: "Research Publications",
+        url: "research-publications",
       },
       {
         title: "Conferences and Academic Activities",
-        url: "conferences-and-academic-activities",
+        url: "conference-activities",
       },
       {
         title: "Attendance Report",
@@ -177,7 +159,7 @@ export const menuItemsData = [
       },
       {
         title: "College & Other Facilities",
-        url: "college-and-other-facilities",
+        url: "college-facilities",
       },
       {
         title: "Hostel",
@@ -203,11 +185,11 @@ export const menuItemsData = [
       },
       {
         title: "Events",
-        url: "events",
+        url: "/events",
         submenu: [
           {
             title: "Conference and Academic Activities",
-            url: "conference-and-academic-activities",
+            url: "conference-activities",
           },
         ],
       },

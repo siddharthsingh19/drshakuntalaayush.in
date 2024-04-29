@@ -57,8 +57,8 @@ const Section1 = () => {
       </div>
       <div className="hs1--sec2">
         <div className="hs1--sec2-wrapper">
-          {hs1sec2cards.map((card) => (
-            <div className="hs1--sec2-cards">
+          {hs1sec2cards.map((card, index) => (
+            <div key={index} className="hs1--sec2-cards">
               <div className="card-icon">{card.icon}</div>
               <h3>{card.heading}</h3>
               <p>{card.title}</p>

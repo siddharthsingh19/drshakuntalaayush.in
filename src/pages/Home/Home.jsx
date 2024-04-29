@@ -1,5 +1,4 @@
 import React from "react";
-import Aboutdrop from "../../components/Navbar/navdrops/Aboutdrop";
 import "./home.css";
 import Hero from "../../components/Hero/Hero";
 import Section1 from "./Section1";
