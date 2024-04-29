@@ -51,6 +51,7 @@ import Affiliations from "./routes/Affiliations";
 import ClinicalMaterial from "./routes/ClinicalMaterial";
 import HospitalMonthwiseOPIPStats from "./routes/HospitalMonthwiseOPIPStats";
 import Root from "./routes/Root";
+import Home from "./pages/Home/Home";
 
 const router = createBrowserRouter([
   {
@@ -58,6 +59,10 @@ const router = createBrowserRouter([
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
+      {
+        path: "",
+        element: <Home />,
+      },
       {
         path: "/contact",
         element: <Contact />,

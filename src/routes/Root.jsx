@@ -7,14 +7,14 @@ import App from "../App";
 
 const Root = () => {
   return (
-    <div>
+    <>
       <Header />
       <div className="content">
         <Outlet />
-        <App />
+        {/* <App /> */}
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 
