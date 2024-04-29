@@ -1,13 +1,7 @@
-import { Outlet } from "react-router-dom";
-import Header from "../components/Header";
+import React from "react";
 
-export default function Root() {
-  return (
-    <div>
-      <Header />
-      <div className="content">
-        <Outlet />
-      </div>
-    </div>
-  );
-}
+const Chairman = () => {
+  return <div>Chairman</div>;
+};
+
+export default Chairman;

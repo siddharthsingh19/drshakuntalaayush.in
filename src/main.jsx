@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+// import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Root from "./routes/Chairman";
 import ErrorPage from "./error-page";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
@@ -51,6 +50,7 @@ import HospitalOpdIpdData from "./routes/HospitalOpdIpdData";
 import Affiliations from "./routes/Affiliations";
 import ClinicalMaterial from "./routes/ClinicalMaterial";
 import HospitalMonthwiseOPIPStats from "./routes/HospitalMonthwiseOPIPStats";
+import Root from "./routes/Root";
 
 const router = createBrowserRouter([
   {
@@ -58,10 +58,10 @@ const router = createBrowserRouter([
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
-      {
-        path: "/",
-        element: <App />,
-      },
+      // {
+      //   path: "/",
+      //   element: <App />,
+      // },
       {
         path: "/contact",
         element: <Contact />,

@@ -1,5 +1,6 @@
 import MobileNav from "./MobileNav";
 import Navbar from "./Navbar";
+import "../App.css";
 import { Link } from "react-router-dom";
 
 const Header = () => {
