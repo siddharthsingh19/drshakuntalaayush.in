@@ -54,13 +54,14 @@ import HospitalMonthwiseOPIPStats from "./routes/HospitalMonthwiseOPIPStats";
 
 const router = createBrowserRouter([
   {
+    path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
-      {
-        path: "/",
-        element: <App />,
-      },
+      // {
+      //   path: "/",
+      //   element: <App />,
+      // },
       {
         path: "contact",
         element: <Contact />,
