@@ -58,10 +58,10 @@ const router = createBrowserRouter([
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
-      // {
-      //   path: "/",
-      //   element: <App />,
-      // },
+      {
+        path: "/",
+        element: <App />,
+      },
       {
         path: "contact",
         element: <Contact />,
