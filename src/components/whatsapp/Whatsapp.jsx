@@ -13,8 +13,6 @@ const Whatsapp = () => {
   };
 
   const handleWA = (e) => {
-    e.preventDefault();
-    console.log(msg);
     setOpen(!open);
     location.href = `https://api.whatsapp.com/send?phone=7080558833&text=${msg}`;
   };
@@ -22,6 +20,12 @@ const Whatsapp = () => {
   const handleChange = (e) => {
     setMsg(e.target.value);
     console.log(e.target.value);
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      handleWA();
+    }
   };
 
   return (
@@ -44,7 +48,12 @@ const Whatsapp = () => {
             <div className="msg-box">
               {/* <form className="msg-form" onSubmit={handleWA}> */}
               <div className="inputdiv">
-                <input type="text" value={msg} onChange={handleChange} />
+                <input
+                  type="text"
+                  value={msg}
+                  onChange={handleChange}
+                  onKeyDown={handleKeyPress}
+                />
               </div>
               <button onClick={handleWA} className="send">
                 <IoSend size={30} />

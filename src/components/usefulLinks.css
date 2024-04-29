@@ -1,0 +1,49 @@
+.useful-container {
+  position: fixed;
+  top: 50vh;
+  left: -30px;
+}
+
+.useful-heading {
+  padding: 10px 20px;
+  background-color: var(--dark);
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+.useful-links {
+  position: absolute;
+  left: 60px;
+  top: -120px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: white;
+  background-color: var(--light);
+  gap: 20px;
+  width: 20rem;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+  margin-left: 50px;
+  /* display: none; */
+}
+
+.useful-links > a {
+  text-decoration: none;
+  padding: 10px;
+  color: var(--white);
+}
+
+.useful-heading:hover .useful-links {
+  display: flex;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
