@@ -4,21 +4,19 @@ import logo from "/logo.jpg";
 import { IoMdMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div className="footer">
       <div className="flogo-div">
-        {/* <Link to="/"> */}
-        <img className="flogo" src={logo} alt="logo" />
-        {/* </Link> */}
+        <a href="/">
+          <img className="flogo" src={logo} alt="logo" />
+        </a>
       </div>
       <div className="footerlinks">
         <div className="f1">
           <ul>
-            <Link to="/about">
-              <li>About</li>
-            </Link>
+            <li>About</li>
             <li>Courses</li>
             <li>Student's Corner</li>
             <li>Rules and Regulations</li>

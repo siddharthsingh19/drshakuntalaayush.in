@@ -51,7 +51,6 @@ import HospitalOpdIpdData from "./routes/HospitalOpdIpdData";
 import Affiliations from "./routes/Affiliations";
 import ClinicalMaterial from "./routes/ClinicalMaterial";
 import HospitalMonthwiseOPIPStats from "./routes/HospitalMonthwiseOPIPStats";
-import Footer from "./components/Footer/Footer";
 
 const router = createBrowserRouter([
   {
