@@ -5,6 +5,7 @@ import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
 import Contact from "../Contact/Contact";
+import Whatsapp from "../../components/whatsapp/Whatsapp";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Section2 />
       <Section3 />
       <Contact />
+      <Whatsapp />
     </div>
   );
 };
