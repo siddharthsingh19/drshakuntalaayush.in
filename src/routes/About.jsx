@@ -1,7 +1,18 @@
 import React from "react";
+import InnerPages from "../components/InnerPages";
 
+import { menuData } from "../components/menudata";
 const About = () => {
-  return <h1>About page content</h1>;
+  const data = menuData[1];
+
+  const heading = data.title;
+  const sidemenu = data.submenu;
+
+  return (
+    <>
+      <InnerPages heading={heading} sidemenu={sidemenu} />
+    </>
+  );
 };
 
 export default About;

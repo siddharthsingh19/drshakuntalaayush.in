@@ -2,6 +2,14 @@ import Dropdown from "./Dropdown";
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
+const scrollToRef = (ref) => {
+  if (ref.current) {
+    const navbarHeight = 100;
+    const offset = ref.current.offsetTop - navbarHeight;
+    window.scrollTo({ top: offset, behavior: "smooth" });
+  }
+};
+
 const MenuItems = ({ items, depthLevel }) => {
   const [dropdown, setDropdown] = useState(false);
   let ref = useRef();
@@ -43,14 +51,16 @@ const MenuItems = ({ items, depthLevel }) => {
       ref={ref}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
-      onClick={closeDropdown}>
+      onClick={closeDropdown && scrollToRef}
+    >
       {items.url && items.submenu ? (
         <>
           <button
             type="button"
             aria-haspopup="menu"
             aria-expanded={dropdown ? "true" : "false"}
-            onClick={() => toggleDropdown()}>
+            onClick={() => toggleDropdown()}
+          >
             <Link to={items.url}>{items.title}</Link>
             {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
           </button>
@@ -65,7 +75,8 @@ const MenuItems = ({ items, depthLevel }) => {
           <button
             type="button"
             aria-haspopup="menu"
-            aria-expanded={dropdown ? "true" : "false"}>
+            aria-expanded={dropdown ? "true" : "false"}
+          >
             {items.title}
             {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
           </button>

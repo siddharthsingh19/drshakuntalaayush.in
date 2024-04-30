@@ -87,6 +87,12 @@ const Contact = () => {
             required
           />
           <input type="email" name="email" placeholder="Your Email" required />
+          <input
+            type="number"
+            name="neet"
+            placeholder="Your NEET Score"
+            required
+          />
           <textarea
             name="message"
             rows="7"

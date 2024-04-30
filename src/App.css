@@ -81,6 +81,7 @@ header {
 .desktop-nav .menu-items a:hover,
 .desktop-nav .menu-items button:hover {
   background-color: var(--light);
+  color: #fff;
   border-radius: 4px;
 }
 

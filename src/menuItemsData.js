@@ -5,31 +5,31 @@ export const menuItemsData = [
   },
   {
     title: "About",
-    url: "/about",
+    url: "/about/#",
     submenu: [
       {
         title: "About College",
-        url: "about-college",
+        url: "/about/#about-college",
       },
       {
         title: "Mission & Vision",
-        url: "mission-vision",
+        url: "/about/#mission-vision",
       },
       {
         title: "Chairman's Message",
-        url: "chairman",
+        url: "/about/#chairman",
       },
       {
         title: "Director's Message",
-        url: "director",
+        url: "/about/#director",
       },
       {
         title: "Principal's Message",
-        url: "principal",
+        url: "/about/#principal",
       },
       {
         title: "Awards & Achievements",
-        url: "awards",
+        url: "/about/#awards",
       },
     ],
   },
