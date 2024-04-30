@@ -30,16 +30,19 @@ const UsefulLinks = () => {
           onMouseLeave={handleMouseLeave}
         >
           <ul className="useful-links">
-            <a href="https://ncismindia.org/">
+            <a target="_blank" href="https://ncismindia.org/">
               <li>NCISM</li>
             </a>
-            <a href="https://ayush.gov.in/">
+            <a target="_blank" href="https://ayush.gov.in/">
               <li>Ministry of AYUSH</li>
             </a>
-            <a href="https://www.mggaugkp.ac.in/">
+            <a target="_blank" href="https://www.mggaugkp.ac.in/">
               <li>MGGAUGKP</li>
             </a>
-            <a href="https://pgcounselling.ayushup.in/">
+            <a
+              target="_blank"
+              href="https://www.upayushcounseling.upsdc.gov.in/"
+            >
               <li>UP AYUSH Councelling</li>
             </a>
           </ul>

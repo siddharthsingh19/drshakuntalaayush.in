@@ -4,6 +4,7 @@ import logo from "/logo.jpg";
 import { IoMdMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -16,35 +17,66 @@ const Footer = () => {
       <div className="footerlinks">
         <div className="f1">
           <ul>
-            <li>About</li>
-            <li>Courses</li>
-            <li>Student's Corner</li>
-            <li>Rules and Regulations</li>
-            <li>Affiliation</li>
+            <Link to="/about">
+              <li>About</li>
+            </Link>
+            <Link to="/courses-fees">
+              <li>Courses</li>
+            </Link>
+            <Link to="/student">
+              <li>Student's Corner</li>
+            </Link>
+            <Link to="/">
+              <li>Rules and Regulations</li>
+            </Link>
+            <Link to="/affiliations">
+              <li>Affiliation</li>
+            </Link>
           </ul>
         </div>
         <div className="f2">
           <ul>
-            <li>Results</li>
-            <li>Vacancy</li>
-            <li>News</li>
-            <li>Notice</li>
-            <li>Permission and Affiliation</li>
+            <Link to="/result">
+              <li>Results</li>
+            </Link>
+            <Link to="/">
+              <li>Vacancy</li>
+            </Link>
+            <Link to="/">
+              <li>News</li>
+            </Link>
+            <Link to="/">
+              <li>Notice</li>
+            </Link>
+            <Link to="/">
+              <li>Permission and Affiliation</li>
+            </Link>
           </ul>
         </div>
         <div className="f2">
           <ul>
-            <li>Contact Us</li>
-            <li>
-              <IoMdMail /> drshakuntalaayush@mail.com
-            </li>
-            <li>
-              <FaLocationDot /> 1214, Gaurabadshahpur, Nainsand, <br /> Jaunpur,
-              Uttar Pradesh-222133
-            </li>
-            <li>
-              <FaPhoneAlt /> 991 890 5644
-            </li>
+            <Link to="/contact">
+              <li>Contact Us</li>
+            </Link>
+            <Link target="_blank" to="mailto:siddharth.singh19@outlook.com">
+              <li>
+                <IoMdMail /> drshakuntalaayush@mail.com
+              </li>
+            </Link>
+            <Link
+              target="_blank"
+              to="https://maps.app.goo.gl/i9tEYpxgQfVSvgraA"
+            >
+              <li>
+                <FaLocationDot /> 1214, Gaurabadshahpur, Nainsand, <br />{" "}
+                Jaunpur, Uttar Pradesh-222133
+              </li>
+            </Link>
+            <Link to="tel:7275747545" target="_blank">
+              <li>
+                <FaPhoneAlt /> 991 890 5644
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="f3">

@@ -67,5 +67,24 @@
 }
 
 .rotate {
-  transform: rotate(90deg);
+  transform: rotate(270deg);
+}
+
+@media only screen and (max-width: 600px) {
+  .useful-container {
+    left: -50px;
+  }
+
+  .second-div {
+    left: 50%;
+  }
+
+  .useful-heading {
+    font-size: 1rem;
+  }
+
+  .useful-links {
+    width: 70vw;
+    font-size: 1.1rem;
+  }
 }
