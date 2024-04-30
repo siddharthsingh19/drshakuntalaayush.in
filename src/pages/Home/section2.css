@@ -28,6 +28,43 @@
 .hs2--img-img {
   width: 100%;
   border-radius: 8px;
+  box-shadow: 0 0 8px #cbcdcf;
+}
+
+.hs2--sec2-cards h3 {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.hs2--sec2-cards p {
+  padding: 20px;
+  padding-top: 0;
+}
+
+.hs2--sec2-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  /* box-shadow: 4px 4px 8px #8a8a8a; */
+  box-shadow: 0 4px 8px #cbcdcf;
+  /* padding: 20px; */
+  width: 400px;
+  transition: background-color 0.3s ease;
+}
+
+.hs2--sec2-cards h3 {
+  color: var(--light);
+  font-size: 1.2rem;
+  /* color: orange; */
+}
+.hs2--sec2-cards:hover {
+  background-color: #1d784d;
+  transition-duration: 0.3s;
+  color: white;
+}
+.hs2--sec2-cards:hover .card-icon {
+  color: white;
 }
 
 @media only screen and (max-width: 600px) {

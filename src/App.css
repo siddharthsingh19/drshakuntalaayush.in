@@ -125,6 +125,10 @@ header {
   display: none;
 }
 
+.nav-logo {
+  width: 70px;
+}
+
 /* menu on mobile */
 @media only screen and (max-width: 600px) {
   .nav-area {

@@ -39,20 +39,20 @@ export const menuItemsData = [
     submenu: [
       {
         title: "Courses & Fees",
-        url: "courses-fees",
+        url: "/student/#courses-fees",
       },
 
       {
         title: "Admission Inquiry",
-        url: "admission-inquiry",
+        url: "/student/#admission-inquiry",
       },
       {
         title: "Student List",
-        url: "student-list",
+        url: "/student/#student-list",
       },
       {
         title: "E-Brochure",
-        url: "e-brochure",
+        url: "/student/#e-brochure",
       },
       {
         title: "Result",
@@ -60,11 +60,11 @@ export const menuItemsData = [
         submenu: [
           {
             title: "BAMS (UG) Result",
-            url: "bams-ug-result",
+            url: "/result/#bams-ug-result",
           },
           {
             title: "PG Medical AU Result",
-            url:"pg-medical-au-result",
+            url:"/result/#pg-medical-au-result",
             submenu: [
               {
                 title: "MD First Year",
@@ -86,32 +86,32 @@ export const menuItemsData = [
     submenu: [
       {
         title: "Principal and Medical Superintendent",
-        url: "principal-medical-superintendent",
+        url: "/ncism-mandate/#principal-medical-superintendent",
       },
 
       {
         title: "Teaching Staff",
-        url: "teaching-staff",
+        url: "/ncism-mandate/#teaching-staff",
       },
       {
         title: "Intake Capacity",
-        url: "intake-capacity",
+        url: "/ncism-mandate/#intake-capacity",
       },
       {
         title: "Non Teaching Staff",
-        url: "non-teaching-staff",
+        url: "/ncism-mandate/#non-teaching-staff",
       },
       {
         title: "Student Details",
-        url: "student-details",
+        url: "/ncism-mandate/#student-details",
       },
       {
         title: "Research Publications",
-        url: "research-publications",
+        url: "/ncism-mandate/#research-publications",
       },
       {
         title: "Conferences and Academic Activities",
-        url: "conference-activities",
+        url: "/ncism-mandate/#conference-activities",
       },
       {
         title: "Attendance Report",
@@ -137,15 +137,15 @@ export const menuItemsData = [
       },
       {
         title: "Affiliations",
-        url: "affiliations",
+        url: "/ncism-mandate/#affiliations",
       },
       {
         title: "Clinical Material in Hospital",
-        url: "clinical-material-in-hospital",
+        url: "/ncism-mandate/#clinical-material-in-hospital",
       },
       {
         title: "Hospital Month wise OP/IP Statistics",
-        url: "hospital-month-wise-opip-statistics",
+        url: "/ncism-mandate/#hospital-month-wise-opip-statistics",
       },
     ],
   },
@@ -155,19 +155,19 @@ export const menuItemsData = [
     submenu: [
       {
         title: "Hospital Facilities",
-        url: "hospital-facilities",
+        url: "/facilities/#hospital-facilities",
       },
       {
         title: "College & Other Facilities",
-        url: "college-facilities",
+        url: "/facilities/#college-facilities",
       },
       {
         title: "Hostel",
-        url: "hostel",
+        url: "/facilities/#hostel",
       },
       {
         title: "Gym",
-        url: "gym",
+        url: "/facilities/#gym",
       },
     ],
   },
@@ -177,11 +177,11 @@ export const menuItemsData = [
     submenu: [
       {
         title: "Image Gallery",
-        url: "image-gallery",
+        url: "/media/#image-gallery",
       },
       {
         title: "Video Gallery",
-        url: "video-gallery",
+        url: "/media/#video-gallery",
       },
       {
         title: "Events",
@@ -201,11 +201,11 @@ export const menuItemsData = [
     submenu: [
       {
         title: "Hospital OPD/IPD Data",
-        url: "hospital-opd-ipd-data",
+        url: "/hospital-clinical-data/#hospital-opd-ipd-data",
       },
       {
         title: "Other Hospital Data",
-        url: "other-hospital-data",
+        url: "/hospital-clinical-data/#other-hospital-data",
       },
     ],
   },  {
