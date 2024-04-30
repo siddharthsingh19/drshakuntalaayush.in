@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import "./innerPages.css";
 import { Link } from "react-router-dom";
 
-const InnerPages = ({ heading, sidemenu }) => {
+const InnerPages = ({ heading, sidemenu, url }) => {
   const refs = sidemenu.map(() => useRef());
 
   //   const scrollToRef = (ref) => {
@@ -36,7 +36,7 @@ const InnerPages = ({ heading, sidemenu }) => {
                   key={item.url}
                   onClick={(e) => handleClick(e, index)}
                 >
-                  <Link to={`/about/#${item.url}`}> {item.title}</Link>
+                  <Link to={`${url}/#${item.url}`}> {item.title}</Link>
                 </div>
               ))}
             </div>

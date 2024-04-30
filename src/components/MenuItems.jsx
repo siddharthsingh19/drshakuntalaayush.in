@@ -7,12 +7,25 @@ const scrollToRef = (ref) => {
     const navbarHeight = 100;
     const offset = ref.current.offsetTop - navbarHeight;
     window.scrollTo({ top: offset, behavior: "smooth" });
+    console.log(offset);
   }
 };
 
 const MenuItems = ({ items, depthLevel }) => {
   const [dropdown, setDropdown] = useState(false);
   let ref = useRef();
+
+  // Create a ref for the content element
+  const contentRef = useRef(null);
+
+  // Function to scroll to the content
+  const scrollToContent = () => {
+    if (contentRef.current) {
+      const navbarHeight = 100; // Adjust as needed
+      const offset = contentRef.current.offsetTop - navbarHeight;
+      window.scrollTo({ top: offset, behavior: "smooth" });
+    }
+  };
 
   useEffect(() => {
     const handler = (event) => {
@@ -51,7 +64,10 @@ const MenuItems = ({ items, depthLevel }) => {
       ref={ref}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
-      onClick={closeDropdown && scrollToRef}
+      onClick={() => {
+        closeDropdown();
+        scrollToRef(contentRef);
+      }}
     >
       {items.url && items.submenu ? (
         <>
@@ -76,6 +92,7 @@ const MenuItems = ({ items, depthLevel }) => {
             type="button"
             aria-haspopup="menu"
             aria-expanded={dropdown ? "true" : "false"}
+            onClick={scrollToContent}
           >
             {items.title}
             {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
@@ -87,7 +104,9 @@ const MenuItems = ({ items, depthLevel }) => {
           />
         </>
       ) : (
-        <Link to={items.url}>{items.title}</Link>
+        <Link to={items.url} ref={contentRef}>
+          {items.title}
+        </Link>
       )}
     </li>
   );

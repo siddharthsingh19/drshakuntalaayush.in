@@ -8,10 +8,11 @@ const Media = () => {
 
   const heading = data.title;
   const sidemenu = data.submenu;
+  const url = data.url;
 
   return (
     <>
-      <InnerPages heading={heading} sidemenu={sidemenu} />
+      <InnerPages heading={heading} sidemenu={sidemenu} url={url} />
     </>
   );
 };

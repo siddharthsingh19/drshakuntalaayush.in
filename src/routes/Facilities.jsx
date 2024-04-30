@@ -7,11 +7,12 @@ const Facilities = () => {
   const data = menuData[4];
 
   const heading = data.title;
+  const url = data.url;
   const sidemenu = data.submenu;
 
   return (
     <>
-      <InnerPages heading={heading} sidemenu={sidemenu} />
+      <InnerPages heading={heading} sidemenu={sidemenu} url={url} />
     </>
   );
 };
