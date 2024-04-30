@@ -1,3 +1,5 @@
+import chairman from "/chairman.png";
+
 export const menuData = [
   {
     title: "Home",
@@ -10,32 +12,37 @@ export const menuData = [
       {
         title: "About College",
         url: "about-college",
-        content: `                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quaerat. Iusto officia deleniti harum. Sunt delectus, totam excepturi nobis ut qui facere enim quisquam laudantium? Vero nam nostrum voluptatibus eveniet at animi adipisci eos fugiat laudantium, ut officiis itaque, dolorum cupiditate minus exercitationem expedita magni molestias veritatis. Provident, vero numquam quidem molestias cumque rem vel minus impedit architecto ut sapiente repellendus expedita cupiditate! Modi explicabo perferendis molestias. Dolorum autem sed incidunt minima nostrum quos quidem quis, provident recusandae deleniti veniam eos? Dignissimos expedita consectetur reprehenderit corrupti officiis, vero rerum a, nam saepe sit, dolor earum nostrum ipsa necessitatibus animi nobis.`
+        content: `Welcome to Dr. Shakuntala Ayurvedic Medical College and Hospital, where tradition meets innovation in the pursuit of holistic healthcare. 
+        Nestled amidst the serene surroundings, our institution stands as a beacon of Ayurvedic wisdom and modern medical advancements. Founded with a vision to revive and propagate the ancient science of Ayurveda, we are committed to nurturing the next generation of healthcare professionals while upholding the timeless principles of this holistic healing system.
+        
+        At Dr. Shakuntala Ayurvedic Medical College and Hospital, we blend the ancient wisdom of Ayurveda with contemporary medical practices to offer comprehensive healthcare solutions. Our esteemed faculty comprises renowned experts and experienced practitioners who are dedicated to imparting knowledge, fostering research, and providing compassionate care to our patients.
+     `,
       },
       {
         title: "Mission & Vision",
         url: "mission-vision",
-        content: `                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quaerat. Iusto officia deleniti harum. Sunt delectus, totam excepturi nobis ut qui facere enim quisquam laudantium? Vero nam nostrum voluptatibus eveniet at animi adipisci eos fugiat laudantium, ut officiis itaque, dolorum cupiditate minus exercitationem expedita magni molestias veritatis. Provident, vero numquam quidem molestias cumque rem vel minus impedit architecto ut sapiente repellendus expedita cupiditate! Modi explicabo perferendis molestias. Dolorum autem sed incidunt minima nostrum quos quidem quis, provident recusandae deleniti veniam eos? Dignissimos expedita consectetur reprehenderit corrupti officiis, vero rerum a, nam saepe sit, dolor earum nostrum ipsa necessitatibus animi nobis.`
+        content: `We, at The Dr Shakuntala Ayurvedic Medical College  canvass, local colours—that is what we, at The Dr Shakuntala Ayurvedic Medical College , simply believe in. `,
       },
       {
         title: "Chairman's Message",
+        img: "/chairman.png",
         url: "chairman",
-        content: `                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quaerat. Iusto officia deleniti harum. Sunt delectus, totam excepturi nobis ut qui facere enim quisquam laudantium? Vero nam nostrum voluptatibus eveniet at animi adipisci eos fugiat laudantium, ut officiis itaque, dolorum cupiditate minus exercitationem expedita magni molestias veritatis. Provident, vero numquam quidem molestias cumque rem vel minus impedit architecto ut sapiente repellendus expedita cupiditate! Modi explicabo perferendis molestias. Dolorum autem sed incidunt minima nostrum quos quidem quis, provident recusandae deleniti veniam eos? Dignissimos expedita consectetur reprehenderit corrupti officiis, vero rerum a, nam saepe sit, dolor earum nostrum ipsa necessitatibus animi nobis.`
+        content: `With the growing institutionalization of education in Ayurveda there is an increased demand to study Ayurveda amongst young students. Under the Aegis of Krishna Sudama Group of Institutions, Dr Shakuntala Ayurvedic Medical College is committed to give quality education and health care facilities to the society. In the field of academics, our focus is to impart quality education and tap the hidden potentials of the young minds by inculcating theoretical knowledge, practical skills and unconventional techniques backed with relentless efforts and persuasion. The college aims at elevating the standards of Ayurveda education through quality teaching. `,
       },
       {
-        title: "Director's Message",
+        title: "Vice Chancellor's Message",
         url: "director",
-        content: `                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quaerat. Iusto officia deleniti harum. Sunt delectus, totam excepturi nobis ut qui facere enim quisquam laudantium? Vero nam nostrum voluptatibus eveniet at animi adipisci eos fugiat laudantium, ut officiis itaque, dolorum cupiditate minus exercitationem expedita magni molestias veritatis. Provident, vero numquam quidem molestias cumque rem vel minus impedit architecto ut sapiente repellendus expedita cupiditate! Modi explicabo perferendis molestias. Dolorum autem sed incidunt minima nostrum quos quidem quis, provident recusandae deleniti veniam eos? Dignissimos expedita consectetur reprehenderit corrupti officiis, vero rerum a, nam saepe sit, dolor earum nostrum ipsa necessitatibus animi nobis.`
+        content: `The globalization of society has placed the entire world under one roof, and the improvement of the education system is the main concern due to global technological growth. Veer Bahadur Singh Purvanchal University, Jaunpur district (U.P.), situated on the banks of the River Gomati and Taposthali of Maharshi Yamdagni, has endured the test of time and developed rapidly to provide students with all the facilities they need to cope with the changing world. “Teachers are the builders of the society” – keeping up with the statement, the University has highly trained teachers with extensive experience in their fields of specialization, which assists in mentoring students in an efficient Student-Mentor relationship. This kind of development of institutions/organizations with the help of strong teaching hands will help in strengthening the education system, which in turn will empower our country. A large number of national and international conferences, seminars, and workshops organized by the university provide an enriched experience for the students and also help them in developing key skills like Leadership and Team Building. Also, time-to-time faculty development programs help teachers stay updated with the new methodologies and technologies of teaching-learning process. The University has been keen on giving its budding talents a new path and attitude in order to make them capable of facing real time challenges.`,
       },
       {
         title: "Principal's Message",
         url: "principal",
-        content: `                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quaerat. Iusto officia deleniti harum. Sunt delectus, totam excepturi nobis ut qui facere enim quisquam laudantium? Vero nam nostrum voluptatibus eveniet at animi adipisci eos fugiat laudantium, ut officiis itaque, dolorum cupiditate minus exercitationem expedita magni molestias veritatis. Provident, vero numquam quidem molestias cumque rem vel minus impedit architecto ut sapiente repellendus expedita cupiditate! Modi explicabo perferendis molestias. Dolorum autem sed incidunt minima nostrum quos quidem quis, provident recusandae deleniti veniam eos? Dignissimos expedita consectetur reprehenderit corrupti officiis, vero rerum a, nam saepe sit, dolor earum nostrum ipsa necessitatibus animi nobis.`
+        content: `Ayurveda is a 5,000-year-old system of natural healing that has its origins in the Vedic culture of India. Although suppressed during years of foreign occupation, Ayurveda has been enjoying a major resurgence in both its native land and throughout the world. Tibetan medicine and Traditional Chinese Medicine both have their roots in Ayurveda. Early Greek medicine also embraced many concepts originally described in the classical Ayurvedic medical texts dating back several thousands of years. More than a mere system of treating illness, Ayurveda is a science of life (Ayur = life, Veda = science or knowledge). It offers a body of wisdom designed to help people stay vital while realizing their full human potential. Providing guidelines on ideal daily and seasonal routines, diet, behavior and the proper use of our senses, Ayurveda reminds us that health is the balanced and dynamic integration between our environment, body, mind, and spirit.`,
       },
       {
         title: "Awards & Achievements",
         url: "awards",
-        content: `                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quaerat. Iusto officia deleniti harum. Sunt delectus, totam excepturi nobis ut qui facere enim quisquam laudantium? Vero nam nostrum voluptatibus eveniet at animi adipisci eos fugiat laudantium, ut officiis itaque, dolorum cupiditate minus exercitationem expedita magni molestias veritatis. Provident, vero numquam quidem molestias cumque rem vel minus impedit architecto ut sapiente repellendus expedita cupiditate! Modi explicabo perferendis molestias. Dolorum autem sed incidunt minima nostrum quos quidem quis, provident recusandae deleniti veniam eos? Dignissimos expedita consectetur reprehenderit corrupti officiis, vero rerum a, nam saepe sit, dolor earum nostrum ipsa necessitatibus animi nobis.`
+        content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quaerat. Iusto officia deleniti harum. Sunt delectus, totam excepturi nobis ut qui facere enim quisquam laudantium? Vero nam nostrum voluptatibus eveniet at animi adipisci eos fugiat laudantium, ut officiis itaque, dolorum cupiditate minus exercitationem expedita magni molestias veritatis. Provident, vero numquam quidem molestias cumque rem vel minus impedit architecto ut sapiente repellendus expedita cupiditate! Modi explicabo perferendis molestias. Dolorum autem sed incidunt minima nostrum quos quidem quis, provident recusandae deleniti veniam eos? Dignissimos expedita consectetur reprehenderit corrupti officiis, vero rerum a, nam saepe sit, dolor earum nostrum ipsa necessitatibus animi nobis.`,
       },
     ],
   },
@@ -70,7 +77,7 @@ export const menuData = [
           },
           {
             title: "PG Medical AU Result",
-            url:"pg-medical-au-result",
+            url: "pg-medical-au-result",
             submenu: [
               {
                 title: "MD First Year",
@@ -214,7 +221,8 @@ export const menuData = [
         url: "other-hospital-data",
       },
     ],
-  },  {
+  },
+  {
     title: "Contact",
     url: "/contact",
   },

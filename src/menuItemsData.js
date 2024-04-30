@@ -8,6 +8,11 @@ export const menuItemsData = [
     url: "/about/#",
     submenu: [
       {
+        title: "College Council",
+        url: "/collegeCouncil.pdf",
+        target: "_blank",
+      },
+      {
         title: "About College",
         url: "/about/#about-college",
       },
@@ -30,6 +35,27 @@ export const menuItemsData = [
       {
         title: "Awards & Achievements",
         url: "/about/#awards",
+      },
+      {
+        title: "Permissions and Affiliations",
+        url: "",
+        submenu: [
+          {
+            title: "State NOC",
+            url: "/statenoc.jpg",
+            target: "_blank",
+          },
+          {
+            title: "University Affiliation",
+            url: "/Affiliation_Letter_2021.jpg",
+            target: "_blank",
+          },
+          {
+            title: "Permission Letter By The Government of India",
+            url: "/Permission2024.jpg",
+            target: "_blank",
+          },
+        ],
       },
     ],
   },
@@ -64,7 +90,7 @@ export const menuItemsData = [
           },
           {
             title: "PG Medical AU Result",
-            url:"/result/#pg-medical-au-result",
+            url: "/result/#pg-medical-au-result",
             submenu: [
               {
                 title: "MD First Year",
@@ -123,15 +149,18 @@ export const menuItemsData = [
           },
           {
             title: "Hospital Non-Teaching Staff Attendance",
-            url: "hospital-non-teaching-staff-attendance",
+            url: "/H_Atten24.pdf",
+            target: "_blank",
           },
           {
             title: "College Non-Teaching Staff Attendance",
-            url: "college-non-teaching-staff-attendance",
+            url: "/NT_Atten24.pdf",
+            target: "_blank",
           },
           {
             title: "Teaching Staff Attendance",
-            url: "teaching-staff-attendance",
+            url: "/T_Attendance24.pdf",
+            target: "_blank",
           },
         ],
       },
@@ -166,8 +195,14 @@ export const menuItemsData = [
         url: "/facilities/#hostel",
       },
       {
-        title: "Gym",
-        url: "/facilities/#gym",
+        title: "College Infrastructure",
+        url: "/college_infra.pdf",
+        target: "_blank",
+      },
+      {
+        title: "Hospital Infrastructure",
+        url: "/hospital_infra.pdf",
+        target: "_blank",
       },
     ],
   },
@@ -200,15 +235,43 @@ export const menuItemsData = [
     url: "/hospital-clinical-data",
     submenu: [
       {
-        title: "Hospital OPD/IPD Data",
-        url: "/hospital-clinical-data/#hospital-opd-ipd-data",
+        title: "Hospital OPD Data",
+        url: "https://softitlab.com/sakayu/home.php?year=2023",
+        target: "_blank",
       },
       {
-        title: "Other Hospital Data",
-        url: "/hospital-clinical-data/#other-hospital-data",
+        title: "Hospital IPD Data",
+        url: "https://softitlab.com/sakayu/home.php?year=2023",
+        target: "_blank",
+      },
+      {
+        title: "Panchakarma",
+        url: "/panchakarma24.pdf",
+        target: "_blank",
+      },
+      {
+        title: "Ksharsutra",
+        url: "/Ksharsutra24.pdf",
+        target: "_blank",
+      },
+      {
+        title: "Operation Theatre",
+        url: "/OT2024.pdf",
+        target: "_blank",
+      },
+      {
+        title: "Pathology",
+        url: "/pathology24.pdf",
+        target: "_blank",
+      },
+      {
+        title: "X-Ray / ECG",
+        url: "/xrayusg.pdf",
+        target: "_blank",
       },
     ],
-  },  {
+  },
+  {
     title: "Contact",
     url: "/contact",
   },

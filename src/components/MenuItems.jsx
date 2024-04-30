@@ -104,7 +104,7 @@ const MenuItems = ({ items, depthLevel }) => {
           />
         </>
       ) : (
-        <Link to={items.url} ref={contentRef}>
+        <Link to={items.url} ref={contentRef} target={items.target}>
           {items.title}
         </Link>
       )}

@@ -49,6 +49,8 @@ const InnerPages = ({ heading, sidemenu, url }) => {
                 >
                   <div className="inner-content" id={item.url}>
                     <h1 className="innerContent-heading">{item.title}</h1>
+                    <img src={item.img} alt={item.title} />
+                    <br />
                     {item.content}
                   </div>
                 </div>
