@@ -42,7 +42,7 @@ export const menuData = [
       {
         title: "Awards & Achievements",
         url: "awards",
-        content: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quaerat. Iusto officia deleniti harum. Sunt delectus, totam excepturi nobis ut qui facere enim quisquam laudantium? Vero nam nostrum voluptatibus eveniet at animi adipisci eos fugiat laudantium, ut officiis itaque, dolorum cupiditate minus exercitationem expedita magni molestias veritatis. Provident, vero numquam quidem molestias cumque rem vel minus impedit architecto ut sapiente repellendus expedita cupiditate! Modi explicabo perferendis molestias. Dolorum autem sed incidunt minima nostrum quos quidem quis, provident recusandae deleniti veniam eos? Dignissimos expedita consectetur reprehenderit corrupti officiis, vero rerum a, nam saepe sit, dolor earum nostrum ipsa necessitatibus animi nobis.`,
+        content: "<h1 className='heading1'>Hello in H1</h1>",
       },
     ],
   },

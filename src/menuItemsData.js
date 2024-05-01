@@ -5,7 +5,7 @@ export const menuItemsData = [
   },
   {
     title: "About",
-    url: "/about/#",
+    url: "/about/",
     submenu: [
       {
         title: "College Council",
@@ -14,27 +14,27 @@ export const menuItemsData = [
       },
       {
         title: "About College",
-        url: "/about/#about-college",
+        url: "/about/about-college",
       },
       {
         title: "Mission & Vision",
-        url: "/about/#mission-vision",
+        url: "/about/mission-vision",
       },
       {
         title: "Chairman's Message",
-        url: "/about/#chairman",
+        url: "/about/chairman",
       },
       {
         title: "Director's Message",
-        url: "/about/#director",
+        url: "/about/director",
       },
       {
         title: "Principal's Message",
-        url: "/about/#principal",
+        url: "/about/principal",
       },
       {
         title: "Awards & Achievements",
-        url: "/about/#awards",
+        url: "/about/awards",
       },
       {
         title: "Permissions and Affiliations",

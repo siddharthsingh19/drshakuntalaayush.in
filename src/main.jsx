@@ -52,6 +52,7 @@ import ClinicalMaterial from "./routes/ClinicalMaterial";
 import HospitalMonthwiseOPIPStats from "./routes/HospitalMonthwiseOPIPStats";
 import Root from "./routes/Root";
 import Home from "./pages/Home/Home";
+import ApplyNowForm from "./components/ApplyNowForm";
 
 const router = createBrowserRouter([
   {
@@ -72,7 +73,11 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "about-college",
+        path: "//apply-now",
+        element: <ApplyNowForm />,
+      },
+      {
+        path: "/about/about-college",
         element: <AboutCollege />,
       },
       {

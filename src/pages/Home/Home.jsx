@@ -7,6 +7,9 @@ import Section3 from "./Section3";
 import Contact from "../Contact/Contact";
 import Whatsapp from "../../components/whatsapp/Whatsapp";
 import UsefulLinks from "../../components/UsefulLinks";
+import ApplyNowForm from "../../components/ApplyNowForm";
+import ImageGallery from "../../routes/ImageGallery";
+import HomeGallery from "./HomeGallery";
 
 const Home = () => {
   return (
@@ -19,7 +22,12 @@ const Home = () => {
       <Hero />
       <Section1 />
       <Section2 />
+      <div className="applyHome">
+        <ApplyNowForm />
+      </div>
       <Section3 />
+      {/* <ImageGallery /> */}
+      <HomeGallery />
       <Contact />
       <Whatsapp />
       <UsefulLinks />

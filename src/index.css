@@ -24,6 +24,10 @@ body {
   justify-content: center;
 }
 
+.fdc {
+  flex-direction: column;
+}
+
 .jcsb {
   justify-content: space-between;
 }

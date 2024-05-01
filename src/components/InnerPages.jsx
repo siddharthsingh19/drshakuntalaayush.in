@@ -27,6 +27,7 @@ const InnerPages = ({ heading, sidemenu, url }) => {
     <>
       <div className="inner-container">
         <div className="inner-wrapper">
+          {/* <div className="inner-top-cover"></div> */}
           <div className="inner-top">{heading}</div>
           <div className="inner-bottom">
             <div className="inner-left">
@@ -49,10 +50,11 @@ const InnerPages = ({ heading, sidemenu, url }) => {
                 >
                   <div className="inner-content" id={item.url}>
                     <h1 className="innerContent-heading">{item.title}</h1>
-                    <img src={item.img} alt={item.title} />
-                    <br />
-                    {item.content}
+                    {item.img && <img src={item.img} alt={item.title} />}
+                    {/* <br /> */}
+                    <div dangerouslySetInnerHTML={{ __html: item.content }} />
                   </div>
+                  <br />
                 </div>
               ))}
             </div>

@@ -7,6 +7,7 @@ import {
   FaUniversity,
   FaHandsHelping,
 } from "react-icons/fa";
+import { MdLocalHospital } from "react-icons/md";
 
 const Section1 = () => {
   const hs1sec2cards = [
@@ -29,10 +30,10 @@ const Section1 = () => {
         "Our College boasts modern infrastructure, equipped with advanced facilities to support students' academic and practical learning needs. ",
     },
     {
-      icon: <FaHandsHelping size={40} />,
-      heading: "Placement Assistance",
+      icon: <MdLocalHospital size={40} />,
+      heading: "State Of The Art Hospital",
       title:
-        "We provide comprehensive placement assistance, guiding students towards rewarding career opportunities in the field of Ayurvedic medicine.",
+        "Shakuntala Ayurvedic Medical College and Hospital offers holistic healthcare services rooted in traditional Ayurvedic principles, prioritizing patient wellness and natural remedies.",
     },
   ];
 
