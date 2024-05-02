@@ -251,7 +251,7 @@ export const menuItemsData = [
       },
       {
         title: "Ksharsutra",
-        url: "/Ksharsutra24.pdf",
+        url: "/ksharsutra24.pdf",
         target: "_blank",
       },
       {
