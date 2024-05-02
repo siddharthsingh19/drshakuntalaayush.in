@@ -27,7 +27,6 @@ const InnerPages = ({ heading, sidemenu, url }) => {
     <>
       <div className="inner-container">
         <div className="inner-wrapper">
-          {/* <div className="inner-top-cover"></div> */}
           <div className="inner-top">{heading}</div>
           <div className="inner-bottom">
             <div className="inner-left">
@@ -38,6 +37,7 @@ const InnerPages = ({ heading, sidemenu, url }) => {
                   onClick={(e) => handleClick(e, index)}
                 >
                   <Link to={`${url}/#${item.url}`}> {item.title}</Link>
+                  {console.log(`${url}/#${item.url}`)}
                 </div>
               ))}
             </div>
@@ -52,7 +52,8 @@ const InnerPages = ({ heading, sidemenu, url }) => {
                     <h1 className="innerContent-heading">{item.title}</h1>
                     {item.img && <img src={item.img} alt={item.title} />}
                     {/* <br /> */}
-                    <div dangerouslySetInnerHTML={{ __html: item.content }} />
+                    <div>{item.content()}</div>
+                    {/* <div dangerouslySetInnerHTML={{ __html: item.content }} /> */}
                   </div>
                   <br />
                 </div>

@@ -1,19 +1,17 @@
 .inner-container {
   /* margin: 60px; */
   padding: 40px;
-  background-image: url(/books.jpg);
+  /* background-image: url(/books.jpg); */
+  background-color: var(--light);
 }
 .inner-wrapper {
-  /* background-color: crimson; */
-
   border-radius: 8px;
   padding: 40px;
-  box-shadow: 0 4px 8px #cbcdcf;
+  /* box-shadow: 0 4px 8px #cbcdcf; */
   /* background-image: url("../assets/hero/front.jpg"); */
   background-color: var(--white);
-
+  background-color: var(--light);
   background-size: cover;
-  background-blend-mode: soft-light;
 }
 
 .inner-top-cover {
@@ -31,7 +29,7 @@
   font-size: 2rem;
   font-weight: 600;
   background-color: var(--white);
-  box-shadow: 0 4px 8px #cbcdcf;
+  box-shadow: 0 0 8px #cbcdcf;
   color: var(--dark);
 
   /* dimag ghumne ke baad */
@@ -53,7 +51,7 @@
   /* background-color: salmon; */
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px #cbcdcf;
+  box-shadow: 0 0 8px #cbcdcf;
   background-color: var(--white);
   font-size: 1.1rem;
   /* dimag ghumne ke baad */
@@ -83,7 +81,7 @@
   background-color: var(--white);
   border-radius: 8px;
   font-size: 1.1rem;
-  box-shadow: 0 4px 8px #cbcdcf;
+  box-shadow: 0 0 8px #cbcdcf;
   /* dimag ghumne ke baad */
   /* 
   position: relative;

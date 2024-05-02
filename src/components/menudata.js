@@ -1,48 +1,129 @@
-import chairman from "/chairman.png";
-
+import AboutCollege from "../routes/AboutCollege";
+import MissionVision from "../routes/MissionVision";
+import Chairman from "../routes/Chairman";
+import Director from "../routes/Director";
+import Principal from "../routes/Principal";
+import Awards from "../routes/Awards";
+import CoursesFees from "../routes/CoursesFees";
+import AdmissionInquiry from "../routes/AdmissionInquiry";
+import StudentList from "../routes/StudentList";
+import EBrochure from "../routes/EBrochure";
 export const menuData = [
   {
     title: "Home",
     url: "/",
   },
   {
-    title: "About",
+    title: "ABOUT US",
     url: "/about",
     submenu: [
       {
         title: "About College",
         url: "about-college",
-        content: `Welcome to Dr. Shakuntala Ayurvedic Medical College and Hospital, where tradition meets innovation in the pursuit of holistic healthcare. 
-        Nestled amidst the serene surroundings, our institution stands as a beacon of Ayurvedic wisdom and modern medical advancements. Founded with a vision to revive and propagate the ancient science of Ayurveda, we are committed to nurturing the next generation of healthcare professionals while upholding the timeless principles of this holistic healing system.
-        
-        At Dr. Shakuntala Ayurvedic Medical College and Hospital, we blend the ancient wisdom of Ayurveda with contemporary medical practices to offer comprehensive healthcare solutions. Our esteemed faculty comprises renowned experts and experienced practitioners who are dedicated to imparting knowledge, fostering research, and providing compassionate care to our patients.
-     `,
+        content: AboutCollege,
+        // content: () => (
+
+        // ),
       },
       {
         title: "Mission & Vision",
         url: "mission-vision",
-        content: `We, at The Dr Shakuntala Ayurvedic Medical College  canvass, local colours—that is what we, at The Dr Shakuntala Ayurvedic Medical College , simply believe in. `,
+        content: MissionVision,
+
+        // content: () => (
+        //   <p>
+        //     We, at The Dr Shakuntala Ayurvedic Medical College canvas, local
+        //     colours—that is what we, at The Dr Shakuntala Ayurvedic Medical
+        //     College , simply believe in.
+        //   </p>
+        // ),
       },
       {
         title: "Chairman's Message",
-        img: "/chairman.png",
+        // img: "/chairman.png",
         url: "chairman",
-        content: `With the growing institutionalization of education in Ayurveda there is an increased demand to study Ayurveda amongst young students. Under the Aegis of Krishna Sudama Group of Institutions, Dr Shakuntala Ayurvedic Medical College is committed to give quality education and health care facilities to the society. In the field of academics, our focus is to impart quality education and tap the hidden potentials of the young minds by inculcating theoretical knowledge, practical skills and unconventional techniques backed with relentless efforts and persuasion. The college aims at elevating the standards of Ayurveda education through quality teaching. `,
+        content: Chairman,
+        // content: () => (
+        //   <p>
+        //     With the growing institutionalization of education in Ayurveda there
+        //     is an increased demand to study Ayurveda amongst young students.
+        //     Under the Aegis of Krishna Sudama Group of Institutions, Dr
+        //     Shakuntala Ayurvedic Medical College is committed to give quality
+        //     education and health care facilities to the society. In the field of
+        //     academics, our focus is to impart quality education and tap the
+        //     hidden potentials of the young minds by inculcating theoretical
+        //     knowledge, practical skills and unconventional techniques backed
+        //     with relentless efforts and persuasion. The college aims at
+        //     elevating the standards of Ayurveda education through quality
+        //     teaching.
+        //   </p>
+        // ),
       },
       {
         title: "Vice Chancellor's Message",
         url: "director",
-        content: `The globalization of society has placed the entire world under one roof, and the improvement of the education system is the main concern due to global technological growth. Veer Bahadur Singh Purvanchal University, Jaunpur district (U.P.), situated on the banks of the River Gomati and Taposthali of Maharshi Yamdagni, has endured the test of time and developed rapidly to provide students with all the facilities they need to cope with the changing world. “Teachers are the builders of the society” – keeping up with the statement, the University has highly trained teachers with extensive experience in their fields of specialization, which assists in mentoring students in an efficient Student-Mentor relationship. This kind of development of institutions/organizations with the help of strong teaching hands will help in strengthening the education system, which in turn will empower our country. A large number of national and international conferences, seminars, and workshops organized by the university provide an enriched experience for the students and also help them in developing key skills like Leadership and Team Building. Also, time-to-time faculty development programs help teachers stay updated with the new methodologies and technologies of teaching-learning process. The University has been keen on giving its budding talents a new path and attitude in order to make them capable of facing real time challenges.`,
+        content: Director,
+        // content: () => <AboutCollege />,
+
+        // content: () => (
+        //   <p>
+        //     The globalization of society has placed the entire world under one
+        //     roof, and the improvement of the education system is the main
+        //     concern due to global technological growth. Veer Bahadur Singh
+        //     Purvanchal University, Jaunpur district U.P., situated on the banks
+        //     of the River Gomati and Taposthali of Maharshi Yamdagni, has endured
+        //     the test of time and developed rapidly to provide students with all
+        //     the facilities they need to cope with the changing world. “Teachers
+        //     are the builders of the society” keeping up with the statement, the
+        //     University has highly trained teachers with extensive experience in
+        //     their fields of specialization, which assists in mentoring students
+        //     in an efficient Student-Mentor relationship. This kind of
+        //     development of institutions/organizations with the help of strong
+        //     teaching hands will help in strengthening the education system,
+        //     which in turn will empower our country. A large number of national
+        //     and international conferences, seminars, and workshops organized by
+        //     the university provide an enriched experience for the students and
+        //     also help them in developing key skills like Leadership and Team
+        //     Building. Also, time-to-time faculty development programs help
+        //     teachers stay updated with the new methodologies and technologies of
+        //     teaching-learning process. The University has been keen on giving
+        //     its budding talents a new path and attitude in order to make them
+        //     capable of facing real time challenges.
+        //   </p>
+        // ),
       },
       {
         title: "Principal's Message",
         url: "principal",
-        content: `Ayurveda is a 5,000-year-old system of natural healing that has its origins in the Vedic culture of India. Although suppressed during years of foreign occupation, Ayurveda has been enjoying a major resurgence in both its native land and throughout the world. Tibetan medicine and Traditional Chinese Medicine both have their roots in Ayurveda. Early Greek medicine also embraced many concepts originally described in the classical Ayurvedic medical texts dating back several thousands of years. More than a mere system of treating illness, Ayurveda is a science of life (Ayur = life, Veda = science or knowledge). It offers a body of wisdom designed to help people stay vital while realizing their full human potential. Providing guidelines on ideal daily and seasonal routines, diet, behavior and the proper use of our senses, Ayurveda reminds us that health is the balanced and dynamic integration between our environment, body, mind, and spirit.`,
+        content: Principal,
+        // content: () => <AboutCollege />,
+
+        // content: () => (
+        //   <p>
+        //     Ayurveda is a 5,000-year-old system of natural healing that has its
+        //     origins in the Vedic culture of India. Although suppressed during
+        //     years of foreign occupation, Ayurveda has been enjoying a major
+        //     resurgence in both its native land and throughout the world. Tibetan
+        //     medicine and Traditional Chinese Medicine both have their roots in
+        //     Ayurveda. Early Greek medicine also embraced many concepts
+        //     originally described in the classical Ayurvedic medical texts dating
+        //     back several thousands of years. More than a mere system of treating
+        //     illness, Ayurveda is a science of life Ayur = life, Veda = science
+        //     or knowledge. It offers a body of wisdom designed to help people
+        //     stay vital while realizing their full human potential. Providing
+        //     guidelines on ideal daily and seasonal routines, diet, behavior and
+        //     the proper use of our senses, Ayurveda reminds us that health is the
+        //     balanced and dynamic integration between our environment, body,
+        //     mind, and spirit.
+        //   </p>
+        // ),
       },
       {
         title: "Awards & Achievements",
         url: "awards",
-        content: "<h1 className='heading1'>Hello in H1</h1>",
+        // content: "<h1 className='heading1'>Hello in H1</h1>",
+        content: Awards,
+        // content: () => <AboutCollege />,
       },
     ],
   },
@@ -53,23 +134,28 @@ export const menuData = [
       {
         title: "Courses & Fees",
         url: "courses-fees",
+        content: CoursesFees,
       },
 
       {
         title: "Admission Inquiry",
         url: "admission-inquiry",
+        content: AdmissionInquiry,
       },
       {
         title: "Student List",
         url: "student-list",
+        content: StudentList,
       },
       {
         title: "E-Brochure",
         url: "e-brochure",
+        content: EBrochure,
       },
       {
         title: "Result",
         url: "/result",
+        content: EBrochure,
         submenu: [
           {
             title: "BAMS (UG) Result",
@@ -100,35 +186,43 @@ export const menuData = [
       {
         title: "Principal and Medical Superintendent",
         url: "principal-medical-superintendent",
+        content: EBrochure,
       },
 
       {
         title: "Teaching Staff",
         url: "teaching-staff",
+        content: EBrochure,
       },
       {
         title: "Intake Capacity",
         url: "intake-capacity",
+        content: EBrochure,
       },
       {
         title: "Non Teaching Staff",
         url: "non-teaching-staff",
+        content: EBrochure,
       },
       {
         title: "Student Details",
         url: "student-details",
+        content: EBrochure,
       },
       {
         title: "Research Publications",
         url: "research-publications",
+        content: EBrochure,
       },
       {
         title: "Conferences and Academic Activities",
         url: "conference-activities",
+        content: EBrochure,
       },
       {
         title: "Attendance Report",
         url: "attendance-report",
+        content: EBrochure,
         submenu: [
           {
             title: "BAMS Students Attendance",
@@ -151,14 +245,17 @@ export const menuData = [
       {
         title: "Affiliations",
         url: "affiliations",
+        content: EBrochure,
       },
       {
         title: "Clinical Material in Hospital",
         url: "clinical-material-in-hospital",
+        content: EBrochure,
       },
       {
         title: "Hospital Month wise OP/IP Statistics",
         url: "hospital-month-wise-opip-statistics",
+        content: EBrochure,
       },
     ],
   },
@@ -169,18 +266,22 @@ export const menuData = [
       {
         title: "Hospital Facilities",
         url: "hospital-facilities",
+        content: EBrochure,
       },
       {
         title: "College & Other Facilities",
         url: "college-facilities",
+        content: EBrochure,
       },
       {
         title: "Hostel",
         url: "hostel",
+        content: EBrochure,
       },
       {
         title: "Gym",
         url: "gym",
+        content: EBrochure,
       },
     ],
   },
@@ -191,14 +292,17 @@ export const menuData = [
       {
         title: "Image Gallery",
         url: "image-gallery",
+        content: EBrochure,
       },
       {
         title: "Video Gallery",
         url: "video-gallery",
+        content: EBrochure,
       },
       {
         title: "Events",
         url: "/events",
+        content: EBrochure,
         submenu: [
           {
             title: "Conference and Academic Activities",
@@ -215,10 +319,12 @@ export const menuData = [
       {
         title: "Hospital OPD/IPD Data",
         url: "hospital-opd-ipd-data",
+        content: EBrochure,
       },
       {
         title: "Other Hospital Data",
         url: "other-hospital-data",
+        content: EBrochure,
       },
     ],
   },
