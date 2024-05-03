@@ -1,5 +1,7 @@
 import React from "react";
 import vc from "/vc.png";
+import "./people.css";
+
 const Director = () => {
   return (
     <>

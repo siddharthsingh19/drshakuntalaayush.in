@@ -40,8 +40,8 @@ const Section2 = () => {
 
   return (
     <div className="hs2">
-      <div className="hs2-header">Our Facilities</div>
-      <div className="hs2-heading">Elevating Your College Experience</div>
+      <div className="hs2-header">Why Choose Us?</div>
+      <div className="hs2-heading">What Sets Us Apart</div>
       <div className="hs2-courses">
         {coursecards.map((card, index) => (
           <div key={index} className="hs2--sec2-cards cp">

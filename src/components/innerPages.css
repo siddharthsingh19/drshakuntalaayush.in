@@ -131,8 +131,10 @@
     gap: 0px;
     padding: 0px;
     flex-wrap: wrap;
+    width: 300px;
   }
   .inner-right {
+    width: 22rem;
   }
   .inner-leftItems {
     font-size: 1rem;

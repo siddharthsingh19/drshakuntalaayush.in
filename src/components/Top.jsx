@@ -26,9 +26,6 @@ const Top = () => {
           </button>
         </div>
       </div>
-      <div className="applyform">
-        <p>Apply Now</p>
-      </div>
     </>
   );
 };

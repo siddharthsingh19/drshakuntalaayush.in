@@ -1,5 +1,7 @@
 import React from "react";
 import principal from "/principal.png";
+import "./people.css";
+
 const Principal = () => {
   return (
     <>

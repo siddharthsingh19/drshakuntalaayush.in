@@ -1,5 +1,6 @@
 import React from "react";
 import "./section1.css";
+import "./section2.css";
 import { MdClass } from "react-icons/md";
 import {
   FaBookReader,
@@ -39,6 +40,8 @@ const Section1 = () => {
 
   return (
     <div className="hs1">
+      <div className="hs2-header s1-2">About Us</div>
+      <div className="hs2-heading">Who We Are</div>
       <div className="hs1--sec1">
         <div className="hs1--sec1-left">
           <h2>

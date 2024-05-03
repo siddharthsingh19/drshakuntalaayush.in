@@ -27,3 +27,25 @@
   /* flex: 1; */
   width: 30%;
 }
+
+@media only screen and (max-width: 600px) {
+  .apply-container {
+    padding: 10px;
+  }
+  .apply-wrapper {
+    padding: 0px;
+    gap: 0;
+  }
+  .apply-wrapper img {
+    display: none;
+  }
+
+  .apply-form-div {
+    /* flex: 1; */
+    width: 100%;
+  }
+
+  .apply-form-div form {
+    margin: 0 1.2rem;
+  }
+}

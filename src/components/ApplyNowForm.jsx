@@ -23,6 +23,7 @@ const ApplyNowForm = () => {
           console.log(error.text);
         }
       );
+
     setMessageSent(true);
     setTimeout(() => {
       setMessageSent(false);
@@ -35,7 +36,6 @@ const ApplyNowForm = () => {
         <div className="hs2-header-g">Apply Now</div>
         <div className="hs2-heading-g">Begin Your Journey</div>
       </div>
-
       <div className="apply-wrapper">
         <div>
           <img src="/books.jpg" alt="" />
@@ -78,5 +78,4 @@ const ApplyNowForm = () => {
     </div>
   );
 };
-
 export default ApplyNowForm;

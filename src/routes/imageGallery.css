@@ -22,6 +22,8 @@
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .image-gallery-wrapper-main {
@@ -88,7 +90,7 @@
 .hs2-header-g {
   font-weight: 700;
   color: #1d784d;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 .hs2-heading-g {
   color: #fff;
