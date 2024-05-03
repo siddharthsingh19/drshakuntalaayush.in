@@ -126,3 +126,52 @@
   color: unset;
   color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+  .ayurveda-container {
+    padding: 80px 30px;
+  }
+
+  .ayurveda-wrapper {
+    width: 90%;
+  }
+
+  .ayurveda-aspects-wrapper {
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    margin: 40px 0;
+  }
+
+  .ayurveda-meaning {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+  }
+
+  .left {
+    flex-direction: row;
+    font-size: 1rem;
+    gap: 0;
+    flex-wrap: wrap;
+    width: 90vw;
+  }
+
+  .left .btnn {
+    padding: 0;
+    border-radius: 8px;
+    font-size: 1rem;
+    flex-direction: row;
+    width: auto;
+    padding: 10px;
+  }
+
+  .right {
+    width: 80vw;
+    border-radius: 8px;
+  }
+  .right p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+}
