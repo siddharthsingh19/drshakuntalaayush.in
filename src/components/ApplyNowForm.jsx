@@ -32,7 +32,7 @@ const ApplyNowForm = () => {
   };
   return (
     <div className="apply-container">
-      <div className="flex aic jcc fdc">
+      <div className="flex aic jcc fdc g10">
         <div className="hs2-header-g">Apply Now</div>
         <div className="hs2-heading-g">Begin Your Journey</div>
       </div>

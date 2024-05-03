@@ -10,6 +10,7 @@ import UsefulLinks from "../../components/UsefulLinks";
 import ApplyNowForm from "../../components/ApplyNowForm";
 import ImageGallery from "../../routes/ImageGallery";
 import HomeGallery from "./HomeGallery";
+import Ayurveda from "./Ayurveda";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       /> */}
       <Hero />
       <Section1 />
+      <Ayurveda />
       <Section2 />
       <div className="applyHome">
         <ApplyNowForm />

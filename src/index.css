@@ -35,6 +35,9 @@ body {
 .gap {
   gap: 30px;
 }
+.g10 {
+  gap: 10px;
+}
 
 .cp {
   cursor: pointer;
