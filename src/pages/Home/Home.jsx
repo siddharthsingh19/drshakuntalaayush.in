@@ -11,6 +11,7 @@ import ApplyNowForm from "../../components/ApplyNowForm";
 import ImageGallery from "../../routes/ImageGallery";
 import HomeGallery from "./HomeGallery";
 import Ayurveda from "./Ayurveda";
+import Connect from "./Connect";
 
 const Home = () => {
   return (
@@ -22,8 +23,8 @@ const Home = () => {
       /> */}
       <Hero />
       <Section1 />
-      <Ayurveda />
       <Section2 />
+      <Ayurveda />
       <div className="applyHome">
         <ApplyNowForm />
       </div>
@@ -31,6 +32,7 @@ const Home = () => {
       {/* <ImageGallery /> */}
       <HomeGallery />
       <Contact />
+      <Connect />
       <Whatsapp />
       <UsefulLinks />
     </div>

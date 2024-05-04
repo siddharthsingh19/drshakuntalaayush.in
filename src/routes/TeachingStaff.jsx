@@ -1,7 +1,12 @@
 import React from "react";
+import ListofTeachingStaff from "../components/ListofTeachingStaff";
 
 const TeachingStaff = () => {
-  return <div>TeachingStaff</div>;
+  return (
+    <div>
+      <ListofTeachingStaff />
+    </div>
+  );
 };
 
 export default TeachingStaff;

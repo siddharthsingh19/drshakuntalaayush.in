@@ -32,16 +32,18 @@
   flex: 4;
 }
 .hs1--sec2 {
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding: 20px;
   margin: 50px;
   /* height: 500px; */
+  width: 100%;
 }
 .hs1--sec2-wrapper {
   display: flex;
   gap: 20px;
+  width: 90vw;
 }
 
 .hs1--sec2-cards {

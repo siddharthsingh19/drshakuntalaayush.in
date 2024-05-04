@@ -8,6 +8,26 @@ import CoursesFees from "../routes/CoursesFees";
 import AdmissionInquiry from "../routes/AdmissionInquiry";
 import StudentList from "../routes/StudentList";
 import EBrochure from "../routes/EBrochure";
+import PrincipalMedicalSuperintendent from "../routes/PrincipalMedicalSuperintendent";
+import TeachingStaff from "../routes/TeachingStaff";
+import IntakeCapacity from "../routes/IntakeCapacity";
+import NonTeachingStaff from "../routes/NonTeachingStaff";
+import StudentDetails from "../routes/StudentDetails";
+import ResearchPublications from "../routes/ResearchPublications";
+import ConferenceActivities from "../routes/ConferenceActivities";
+import AttendanceReport from "../routes/AttendanceReport";
+import Affiliations from "../routes/Affiliations";
+import ClinicalMaterial from "../routes/ClinicalMaterial";
+import HospitalMonthwiseOPIPStats from "../routes/HospitalMonthwiseOPIPStats";
+import CollegeFacilities from "../routes/CollegeFacilities";
+import HospitalFacilities from "../routes/HospitalFacilities";
+import Hostel from "../routes/Hostel";
+import Gym from "../routes/Gym";
+import ImageGallery from "../pages/Home/HomeGallery";
+import VideoGallery from "../routes/VideoGallery";
+import HospitalOpdIpdData from "../routes/HospitalOpdIpdData";
+import OtherHospitaldata from "../routes/OtherHospitaldata";
+
 export const menuData = [
   {
     title: "Home",
@@ -186,43 +206,43 @@ export const menuData = [
       {
         title: "Principal and Medical Superintendent",
         url: "principal-medical-superintendent",
-        content: EBrochure,
+        content: PrincipalMedicalSuperintendent,
       },
 
       {
         title: "Teaching Staff",
         url: "teaching-staff",
-        content: EBrochure,
+        content: TeachingStaff,
       },
       {
         title: "Intake Capacity",
         url: "intake-capacity",
-        content: EBrochure,
+        content: IntakeCapacity,
       },
       {
         title: "Non Teaching Staff",
         url: "non-teaching-staff",
-        content: EBrochure,
+        content: NonTeachingStaff,
       },
       {
         title: "Student Details",
         url: "student-details",
-        content: EBrochure,
+        content: StudentDetails,
       },
       {
         title: "Research Publications",
         url: "research-publications",
-        content: EBrochure,
+        content: ResearchPublications,
       },
       {
         title: "Conferences and Academic Activities",
         url: "conference-activities",
-        content: EBrochure,
+        content: ConferenceActivities,
       },
       {
         title: "Attendance Report",
         url: "attendance-report",
-        content: EBrochure,
+        content: AttendanceReport,
         submenu: [
           {
             title: "BAMS Students Attendance",
@@ -245,17 +265,17 @@ export const menuData = [
       {
         title: "Affiliations",
         url: "affiliations",
-        content: EBrochure,
+        content: Affiliations,
       },
       {
         title: "Clinical Material in Hospital",
         url: "clinical-material-in-hospital",
-        content: EBrochure,
+        content: ClinicalMaterial,
       },
       {
         title: "Hospital Month wise OP/IP Statistics",
         url: "hospital-month-wise-opip-statistics",
-        content: EBrochure,
+        content: HospitalMonthwiseOPIPStats,
       },
     ],
   },
@@ -266,22 +286,22 @@ export const menuData = [
       {
         title: "Hospital Facilities",
         url: "hospital-facilities",
-        content: EBrochure,
+        content: HospitalFacilities,
       },
       {
         title: "College & Other Facilities",
         url: "college-facilities",
-        content: EBrochure,
+        content: CollegeFacilities,
       },
       {
         title: "Hostel",
         url: "hostel",
-        content: EBrochure,
+        content: Hostel,
       },
       {
         title: "Gym",
         url: "gym",
-        content: EBrochure,
+        content: Gym,
       },
     ],
   },
@@ -292,12 +312,12 @@ export const menuData = [
       {
         title: "Image Gallery",
         url: "image-gallery",
-        content: EBrochure,
+        content: ImageGallery,
       },
       {
         title: "Video Gallery",
         url: "video-gallery",
-        content: EBrochure,
+        content: VideoGallery,
       },
       {
         title: "Events",
@@ -319,12 +339,12 @@ export const menuData = [
       {
         title: "Hospital OPD/IPD Data",
         url: "hospital-opd-ipd-data",
-        content: EBrochure,
+        content: HospitalOpdIpdData,
       },
       {
         title: "Other Hospital Data",
         url: "other-hospital-data",
-        content: EBrochure,
+        content: OtherHospitaldata,
       },
     ],
   },

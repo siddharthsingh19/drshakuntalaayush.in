@@ -21,9 +21,19 @@ const Top = () => {
               siddharth@gmail.com
             </a>
           </div>
-          <button className={`apply-now`} onClick={handleClick}>
-            <Link to="/apply-now">Apply Now</Link>
-          </button>
+          <div className="top-btns">
+            <button className={`apply-now`} onClick={handleClick}>
+              <Link to="/apply-now">Apply Now</Link>
+            </button>
+            <button className={`apply-now`} onClick={handleClick}>
+              <Link
+                to="https://softitlab.com/DOCTORDESK/login.php"
+                target="_blank"
+              >
+                OPD Login
+              </Link>
+            </button>
+          </div>
         </div>
       </div>
     </>

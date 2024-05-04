@@ -95,6 +95,7 @@ textarea {
   /* outline: 1px solid var(--light); */
   resize: none;
   color: var(--dark);
+  /* box-shadow: 0 4px 8px #cbcdcf; */
 }
 input:focus,
 textarea:focus {

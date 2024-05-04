@@ -24,6 +24,8 @@
   gap: 20px;
   margin-top: 40px;
   width: 90vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .hs2--img-img {
