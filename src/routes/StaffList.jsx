@@ -1,13 +1,14 @@
 import React from "react";
-import "./attendanceReport.css";
 import { menuItemsData } from "../menuItemsData";
 
-const att = menuItemsData[3].submenu[6].submenu;
-const AttendanceReport = () => {
+const sl = menuItemsData[3].submenu[2].submenu;
+// console.log(sl);
+
+const StaffList = () => {
   return (
-    <>
+    <div>
       <div className="atR">
-        {att.map((item, index) => (
+        {sl.map((item, index) => (
           <a target="_blank" href={item.url}>
             {" "}
             <div className="BAtt" key={index}>
@@ -16,8 +17,8 @@ const AttendanceReport = () => {
           </a>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
-export default AttendanceReport;
+export default StaffList;

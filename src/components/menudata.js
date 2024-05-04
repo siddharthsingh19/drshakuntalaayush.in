@@ -27,6 +27,7 @@ import ImageGallery from "../pages/Home/HomeGallery";
 import VideoGallery from "../routes/VideoGallery";
 import HospitalOpdIpdData from "../routes/HospitalOpdIpdData";
 import OtherHospitaldata from "../routes/OtherHospitaldata";
+import StaffList from "../routes/StaffList";
 
 export const menuData = [
   {
@@ -210,19 +211,32 @@ export const menuData = [
       },
 
       {
-        title: "Teaching Staff",
-        url: "teaching-staff",
-        content: TeachingStaff,
-      },
-      {
         title: "Intake Capacity",
         url: "intake-capacity",
         content: IntakeCapacity,
       },
       {
-        title: "Non Teaching Staff",
-        url: "non-teaching-staff",
-        content: NonTeachingStaff,
+        title: "Staff List",
+        url: "staff-list",
+        content: StaffList,
+        submenu: [
+          {
+            title: "Teaching Staff",
+            url: "Teaching Staff",
+          },
+          {
+            title: "Non-Teaching Staff",
+            url: "non-teaching-staff",
+          },
+          {
+            title: "Clinical Staff",
+            url: "clinical-staff",
+          },
+          {
+            title: "Hospital Staff",
+            url: "hospital-staff",
+          },
+        ],
       },
       {
         title: "Student Details",

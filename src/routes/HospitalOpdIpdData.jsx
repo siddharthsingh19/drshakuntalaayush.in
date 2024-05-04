@@ -2,7 +2,7 @@ import React from "react";
 import { menuItemsData } from "../menuItemsData";
 
 const att = menuItemsData[6];
-console.log(att.submenu);
+// console.log(att.submenu);
 
 const HospitalOpdIpdData = () => {
   return (

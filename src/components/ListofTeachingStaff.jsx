@@ -3,7 +3,8 @@ import React from "react";
 const ListofTeachingStaff = () => {
   return (
     <div>
-      <div className="list-heading">List of Teaching Staff</div>
+      <div className="sHeading">List of Teaching Staff</div>
+
       <table className="">
         <tbody>
           <tr className="">

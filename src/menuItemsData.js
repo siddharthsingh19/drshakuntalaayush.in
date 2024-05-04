@@ -116,16 +116,30 @@ export const menuItemsData = [
       },
 
       {
-        title: "Teaching Staff",
-        url: "/ncism-mandate/#teaching-staff",
-      },
-      {
         title: "Intake Capacity",
         url: "/ncism-mandate/#intake-capacity",
       },
       {
-        title: "Non Teaching Staff",
-        url: "/ncism-mandate/#non-teaching-staff",
+        title: "Staff List",
+        url: "/ncism-mandate/#staff-list",
+        submenu: [
+          {
+            title: "Teaching Staff",
+            url: "teaching-staff",
+          },
+          {
+            title: "Non-Teaching Staff",
+            url: "non-teaching-staff",
+          },
+          {
+            title: "Clinical Staff",
+            url: "clinical-staff",
+          },
+          {
+            title: "Hospital Staff",
+            url: "hospital-staff",
+          },
+        ],
       },
       {
         title: "Student Details",
@@ -148,8 +162,8 @@ export const menuItemsData = [
             url: "bams-students-attendance",
           },
           {
-            title: "Hospital Non-Teaching Staff Attendance",
-            url: "/H_Atten24.pdf",
+            title: "Teaching Staff Attendance",
+            url: "/T_Attendance24.pdf",
             target: "_blank",
           },
           {
@@ -158,8 +172,8 @@ export const menuItemsData = [
             target: "_blank",
           },
           {
-            title: "Teaching Staff Attendance",
-            url: "/T_Attendance24.pdf",
+            title: "Hospital Non-Teaching Staff Attendance",
+            url: "/H_Atten24.pdf",
             target: "_blank",
           },
         ],

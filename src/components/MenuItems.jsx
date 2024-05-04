@@ -7,7 +7,7 @@ const scrollToRef = (ref) => {
     const navbarHeight = 100;
     const offset = ref.current.offsetTop - navbarHeight;
     window.scrollTo({ top: offset, behavior: "smooth" });
-    console.log(offset);
+    // console.log(offset);
   }
 };
 

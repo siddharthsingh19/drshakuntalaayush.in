@@ -37,7 +37,7 @@ const InnerPages = ({ heading, sidemenu, url }) => {
                   onClick={(e) => handleClick(e, index)}
                 >
                   <Link to={`${url}/#${item.url}`}> {item.title}</Link>
-                  {console.log(`${url}/#${item.url}`)}
+                  {/* {console.log(`${url}/#${item.url}`)} */}
                 </div>
               ))}
             </div>

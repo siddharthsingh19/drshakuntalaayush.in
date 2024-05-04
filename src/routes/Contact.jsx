@@ -5,11 +5,6 @@ const Contact = () => {
   return (
     <>
       <Contactt />
-      <div className="collegeCouncil">
-        <a href="/collegeCouncil.pdf" target="_blank">
-          Download PDF
-        </a>
-      </div>
     </>
   );
 };

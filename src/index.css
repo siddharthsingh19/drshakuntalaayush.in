@@ -64,3 +64,23 @@ body {
 .hs2-header-g {
   font-size: 1.2rem;
 }
+
+.sHeading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 40px;
+  color: var(--dark);
+}
+
+th {
+  color: var(--dark);
+  border-right: 1px solid var(--light);
+  text-align: center;
+}
+td {
+  color: var(--dark);
+  text-align: center;
+  border-right: 1px solid var(--light);
+  line-height: 3rem;
+}

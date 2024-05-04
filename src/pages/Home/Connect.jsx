@@ -23,7 +23,7 @@ const Connect = () => {
                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
               ></iframe>
             </div>
-            <div className="rect" style={{ borderRadius: "10px" }}>
+            {/* <div className="rect" style={{ borderRadius: "10px" }}>
               <iframe
                 className="custom-iframe"
                 width="800"
@@ -35,17 +35,18 @@ const Connect = () => {
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-            </div>
-            {/* <div className="rect">
+            </div> */}
+            <div className="rect">
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <InstagramEmbed
-                  url="https://www.instagram.com/p/CfPn1RwhopQ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                  url="https://www.instagram.com/p/C5aPXzlramd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
                   width={400}
                   height={600}
+                  style={{ borderRadius: "10px" }}
                   //   captioned
                 />
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

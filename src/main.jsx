@@ -50,6 +50,8 @@ import HospitalOpdIpdData from "./routes/HospitalOpdIpdData";
 import Affiliations from "./routes/Affiliations";
 import ClinicalMaterial from "./routes/ClinicalMaterial";
 import HospitalMonthwiseOPIPStats from "./routes/HospitalMonthwiseOPIPStats";
+import ClinicalStaff from "./routes/ClinicalStaff";
+import HospitalStaff from "./routes/HospitalStaff";
 import Root from "./routes/Root";
 import Home from "./pages/Home/Home";
 import ApplyNowForm from "./components/ApplyNowForm";
@@ -199,6 +201,14 @@ const router = createBrowserRouter([
       {
         path: "non-teaching-staff",
         element: <NonTeachingStaff />,
+      },
+      {
+        path: "clinical-staff",
+        element: <ClinicalStaff />,
+      },
+      {
+        path: "hospital-staff",
+        element: <HospitalStaff />,
       },
       {
         path: "other-hospital-data",

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../../routes/imageGallery.css";
 
 const images = import.meta.glob("/src/pages/Home/*.{jpg,JPG}");
-console.log("Imported Images:", images);
+// console.log("Imported Images:", images);
 const ImageGallery = () => {
   return (
     <div className="image-gallery-container">
