@@ -115,6 +115,34 @@ const router = createBrowserRouter([
         element: <BAMSStudentAttendance />,
       },
       {
+        path: "teaching-staff-attendance",
+        element: <TeachingStaffAttendance />,
+      },
+      {
+        path: "college-non-teaching-staff-attendance",
+        element: <CollegenonTeachingStaffAttendance />,
+      },
+      {
+        path: "hospital-non-teaching-staff-attendance",
+        element: <HospitalNonTeachingStaffAttendance />,
+      },
+      {
+        path: "ncism-mandate/bams-students-attendance",
+        element: <BAMSStudentAttendance />,
+      },
+      {
+        path: "ncism-mandate/teaching-staff-attendance",
+        element: <TeachingStaffAttendance />,
+      },
+      {
+        path: "ncism-mandate/college-non-teaching-staff-attendance",
+        element: <CollegenonTeachingStaffAttendance />,
+      },
+      {
+        path: "ncism-mandate/hospital-non-teaching-staff-attendance",
+        element: <HospitalNonTeachingStaffAttendance />,
+      },
+      {
         path: "bams-ug-result",
         element: <BAMSUGResult />,
       },
@@ -126,10 +154,7 @@ const router = createBrowserRouter([
         path: "college-facilities",
         element: <CollegeFacilities />,
       },
-      {
-        path: "college-non-teaching-staff-attendance",
-        element: <CollegenonTeachingStaffAttendance />,
-      },
+
       {
         path: "conference-activities",
         element: <ConferenceActivities />,
@@ -166,10 +191,7 @@ const router = createBrowserRouter([
         path: "hospital-facilities",
         element: <HospitalFacilities />,
       },
-      {
-        path: "hospital-non-teaching-staff-attendance",
-        element: <HospitalNonTeachingStaffAttendance />,
-      },
+
       {
         path: "hostel",
         element: <Hostel />,
@@ -199,6 +221,10 @@ const router = createBrowserRouter([
         element: <NcismMandate />,
       },
       {
+        path: "teaching-staff",
+        element: <TeachingStaff />,
+      },
+      {
         path: "non-teaching-staff",
         element: <NonTeachingStaff />,
       },
@@ -208,6 +234,22 @@ const router = createBrowserRouter([
       },
       {
         path: "hospital-staff",
+        element: <HospitalStaff />,
+      },
+      {
+        path: "ncism-mandate/teaching-staff",
+        element: <TeachingStaff />,
+      },
+      {
+        path: "ncism-mandate/non-teaching-staff",
+        element: <NonTeachingStaff />,
+      },
+      {
+        path: "ncism-mandate/clinical-staff",
+        element: <ClinicalStaff />,
+      },
+      {
+        path: "ncism-mandate/hospital-staff",
         element: <HospitalStaff />,
       },
       {
@@ -246,14 +288,7 @@ const router = createBrowserRouter([
         path: "student-list",
         element: <StudentList />,
       },
-      {
-        path: "teaching-staff",
-        element: <TeachingStaff />,
-      },
-      {
-        path: "teaching-staff-attendance",
-        element: <TeachingStaffAttendance />,
-      },
+
       {
         path: "video-gallery",
         element: <VideoGallery />,

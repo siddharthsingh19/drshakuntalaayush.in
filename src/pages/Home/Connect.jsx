@@ -14,7 +14,7 @@ const Connect = () => {
               <iframe
                 className="custom-iframe"
                 src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDrshakuntalaamc&tabs=timeline&width=400&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                width="400"
+                width="350"
                 height="600"
                 style={{ border: "none", overflow: "hidden" }}
                 scrolling="no"
@@ -40,7 +40,7 @@ const Connect = () => {
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <InstagramEmbed
                   url="https://www.instagram.com/p/C5aPXzlramd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
-                  width={400}
+                  width={350}
                   height={600}
                   style={{ borderRadius: "10px" }}
                   //   captioned

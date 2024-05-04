@@ -33,9 +33,13 @@ const ListOfClinicalStaff = () => {
             <td>Less than 2 year</td>
             <td>1/1/2022</td>
             <td>9453365880</td>
-            <td>vineetsinghbhu07@gmail.com</td>
             <td>
-              <img src="doc/AYST02030.png" />
+              <a href="mailto:vineetsinghbhu07@gmail.com">
+                vineetsinghbhu07@gmail.com
+              </a>
+            </td>
+            <td>
+              <img src="c1.png" />
             </td>
           </tr>
           <tr>
@@ -50,9 +54,13 @@ const ListOfClinicalStaff = () => {
             <td>Less than 2 year</td>
             <td>8/11/2023</td>
             <td>9455589033</td>
-            <td>drmoneekasingh2013@gmail.com</td>
             <td>
-              <img src="doc/AYPS01272.png" />
+              <a href="mailto:drmoneekasingh2013@gmail.com">
+                drmoneekasingh2013@gmail.com
+              </a>
+            </td>
+            <td>
+              <img src="c2.png" />
             </td>
           </tr>
           <tr>
@@ -67,9 +75,11 @@ const ListOfClinicalStaff = () => {
             <td>4 year</td>
             <td>12/12/2022</td>
             <td>7304527180</td>
-            <td>dr.badalrai@gmail.com</td>
             <td>
-              <img src="doc/AYKC02114.png" />
+              <a href="mailto:dr.badalrai@gmail.com">dr.badalrai@gmail.com</a>
+            </td>
+            <td>
+              <img src="c3.png" />
             </td>
           </tr>
           <tr>
@@ -84,9 +94,13 @@ const ListOfClinicalStaff = () => {
             <td>Less than 1 year</td>
             <td>8/5/2022</td>
             <td>9565334833</td>
-            <td>shaileshwariyadav93@gmail.com</td>
             <td>
-              <img src="doc/AYPS01544.png" />
+              <a href="mailto:shaileshwariyadav93@gmail.com">
+                shaileshwariyadav93@gmail.com
+              </a>
+            </td>
+            <td>
+              <img src="c4.png" />
             </td>
           </tr>
           <tr>
@@ -101,9 +115,13 @@ const ListOfClinicalStaff = () => {
             <td>Less than 2 year</td>
             <td>12/26/2023</td>
             <td>9125367373</td>
-            <td>drrichagupta090@gmail.com</td>
             <td>
-              <img src="doc/AYSV01000.png" />
+              <a href="mailto:drrichagupta090@gmail.com">
+                drrichagupta090@gmail.com
+              </a>
+            </td>
+            <td>
+              <img src="c5.png" />
             </td>
           </tr>
           <tr>
@@ -118,9 +136,11 @@ const ListOfClinicalStaff = () => {
             <td>Less than 2 year</td>
             <td>4/2/2022</td>
             <td>9742351947</td>
-            <td>dr.ashwini4u@gmail.com</td>
             <td>
-              <img src="doc/9742351947.png" />
+              <a href="mailto:dr.ashwini4u@gmail.com">dr.ashwini4u@gmail.com</a>
+            </td>
+            <td>
+              <img src="c6.png" />
             </td>
           </tr>
           <tr>
@@ -135,9 +155,13 @@ const ListOfClinicalStaff = () => {
             <td>Less than 1 year</td>
             <td>7/10/2023</td>
             <td>9883775959</td>
-            <td>ashutoshroy284@gmail.com</td>
             <td>
-              <img src="doc/AYSK01202.png" />
+              <a href="mailto:ashutoshroy284@gmail.com">
+                ashutoshroy284@gmail.com
+              </a>
+            </td>
+            <td>
+              <img src="c7.png" />
             </td>
           </tr>
           <tr>
@@ -152,9 +176,15 @@ const ListOfClinicalStaff = () => {
             <td>Less than 1 year</td>
             <td>2/17/2023</td>
             <td>8318913948</td>
-            <td>drajaykumaranand0@gmail.com</td>
+
             <td>
-              <img src="doc/8318913948.png" />
+              <a href="mailto:drajaykumaranand0@gmail.com">
+                drajaykumaranand0@gmail.com
+              </a>
+            </td>
+
+            <td>
+              <img src="c8.png" />
             </td>
           </tr>
         </tbody>

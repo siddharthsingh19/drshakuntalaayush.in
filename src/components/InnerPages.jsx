@@ -1,8 +1,33 @@
-import React, { useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./innerPages.css";
+import { FaArrowUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const InnerPages = ({ heading, sidemenu, url }) => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.pageYOffset > 100) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   const refs = sidemenu.map(() => useRef());
 
   //   const scrollToRef = (ref) => {
@@ -59,6 +84,14 @@ const InnerPages = ({ heading, sidemenu, url }) => {
                 </div>
               ))}
             </div>
+          </div>
+          <div
+            className={`back-to-top ${isVisible ? "show" : ""}`}
+            onClick={scrollToTop}
+          >
+            {/* <a href="#"> */}
+            <FaArrowUp size={30} color="#1d784d" />
+            {/* </a> */}
           </div>
         </div>
       </div>

@@ -37,7 +37,7 @@ const ListofTeachingStaff = () => {
             <td>9935568575</td>
             <td>drshivesh81@gmail.com</td>
             <td>
-              <img src="" alt="" />
+              <img src="/1.png" alt="" />
             </td>
           </tr>
 
@@ -56,7 +56,7 @@ const ListofTeachingStaff = () => {
             <td>dr.rudrabhardwaj03@gmail.com</td>
             <td>
               {" "}
-              <img src="" alt="" />
+              <img src="/2.png" alt="" />
             </td>
           </tr>
 
@@ -74,7 +74,7 @@ const ListofTeachingStaff = () => {
             <td>9890917341</td>
             <td>sakhare0nagesh2112@gmail.com</td>
             <td>
-              <img src="" />
+              <img src="/3.png" />
             </td>
           </tr>
           <tr>
@@ -91,7 +91,7 @@ const ListofTeachingStaff = () => {
             <td>9453090807</td>
             <td>gyanendra0pal@gmail.com</td>
             <td>
-              <img src="" alt="" />
+              <img src="/4.png" alt="" />
             </td>
           </tr>
 
@@ -109,7 +109,7 @@ const ListofTeachingStaff = () => {
             <td>8416905961</td>
             <td>rajendra75prasadpal@gmail.com</td>
             <td>
-              <img src="" alt="" />
+              <img src="/5.png" alt="" />
             </td>
           </tr>
           <tr>
@@ -127,7 +127,7 @@ const ListofTeachingStaff = () => {
             <td>kavitanigam.396@gmail.com</td>
             <td>
               {" "}
-              <img src="" />
+              <img src="/6.png" />
             </td>
           </tr>
           <tr>
@@ -145,7 +145,7 @@ const ListofTeachingStaff = () => {
             <td>vimlesh85tiwari@gmail.com</td>
             <td>
               {" "}
-              <img src="" />
+              <img src="/7.png" alt="" />
             </td>
           </tr>
           <tr>
@@ -163,7 +163,7 @@ const ListofTeachingStaff = () => {
             <td>prashant.1nandwate@gmail.com</td>
             <td>
               {" "}
-              <img src="" />
+              <img src="/8.png" alt="" />
             </td>
           </tr>
           <tr>
@@ -180,7 +180,7 @@ const ListofTeachingStaff = () => {
             <td>9424580143</td>
             <td>drcdubey671@gmail.com</td>
             <td>
-              <img src="" alt="" />
+              <img src="/9.png" alt="" />
             </td>
           </tr>
         </tbody>
