@@ -1,6 +1,6 @@
 import React from "react";
 import InnerPages from "../components/InnerPages";
-import ".hospitalClinicalData.css";
+import "./hospitalClinicalData.css";
 import { menuItemsData } from "../menuItemsData";
 
 import { menuData } from "../components/menudata";
