@@ -88,9 +88,9 @@ const Footer = () => {
                 // height="250"
                 className="gmap"
                 style={{ borderRadius: 5, border: 0 }}
-                allowfullscreen=""
+                allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>

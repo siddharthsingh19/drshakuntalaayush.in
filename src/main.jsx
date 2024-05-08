@@ -1,7 +1,7 @@
 import React, { Children } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-// import App from "./App";
+import App from "./App";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./error-page";
 import About from "./routes/About";
@@ -64,7 +64,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "",
-        element: <Home />,
+        element: <App />,
       },
       {
         path: "contact",
@@ -304,7 +304,6 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider children={Children} router={router} />
-    {/* {Children} */}
+    <RouterProvider router={router} />
   </React.StrictMode>
 );

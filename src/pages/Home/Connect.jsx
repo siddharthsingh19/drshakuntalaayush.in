@@ -18,9 +18,9 @@ const Connect = () => {
                 height="600"
                 style={{ border: "none", overflow: "hidden" }}
                 scrolling="no"
-                frameborder="0"
-                allowfullscreen="true"
-                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                frameBorder="0"
+                allowFullScreen=""
+                allow="autoplay clipboard-write encrypted-media picture-in-picture web-share"
               ></iframe>
             </div>
             {/* <div className="rect" style={{ borderRadius: "10px" }}>
